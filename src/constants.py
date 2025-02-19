@@ -1,5 +1,7 @@
 emb_color = 0xff0000
 
+lol_version = "14.22.1"
+
 good = "🟩"
 partial = "🟧"
 wrong = "🟥"

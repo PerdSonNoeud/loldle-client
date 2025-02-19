@@ -1,4 +1,8 @@
 .venv
 .idea
+
 assets/token.txt
+
 src/__pycache__/
+src/parsers/
+

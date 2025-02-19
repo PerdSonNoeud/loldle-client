@@ -1,23 +1,27 @@
 import random as rd
 
 import constants as cons
-from champions import Champion
+from champions import Champion, initChamp
 
 
 class Loldle:
     def __init__(self):
         self.champ = None
         self.guesses = []
+        
+        # Initialize champions
+        initChamp()
 
     def start(self):
         # TODO: Import a random dict from a database
         champ_dict = {
-            "name": "aurelionsol",
+            "name": "Aurelion Sol",
+            "alias": "aurelionsol",
             "gender": "Male",
             "positions": ["Mid"],
             "species": ["Celestial", "Dragon"],
             "resource": "Mana",
-            "range_type": ["distance"],
+            "range_type": ["ranged"],
             "regions": ["Runeterra", "Targon"],
             "release": 2016
         }
