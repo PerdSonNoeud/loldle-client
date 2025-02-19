@@ -9,7 +9,7 @@ class Champion:
         self.species = data["species"]
         self.resource = data["resource"]
         self.range_type = data["range_type"]
-        self.region = data["regions"]
+        self.regions = data["regions"]
         self.release = data["release"]
         self.url = cons.get_splash_url(data["name"])
 

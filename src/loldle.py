@@ -4,12 +4,25 @@ import constants as cons
 from champions import Champion
 
 
-class loldle:
+class Loldle:
     def __init__(self):
-        self.champ = null
+        self.champ = None
         self.guesses = []
 
     def start(self):
+        # TODO: Import a random dict from a database
+        champ_dict = {
+            "name": "aurelionsol",
+            "gender": "Male",
+            "positions": ["Mid"],
+            "species": ["Celestial", "Dragon"],
+            "resource": "Mana",
+            "range_type": ["distance"],
+            "regions": ["Runeterra", "Targon"],
+            "release": 2016
+        }
+        self.champ = Champion(champ_dict)
+        self.guesses = []
         pass
 
     def guess(self, guess: Champion):
@@ -60,7 +73,7 @@ class loldle:
             range_type = cons.good
 
         # Regions
-        int n = 0
+        n = 0
         for reg in guess.regions:
             if reg in self.champ.regions:
                 n += 1
@@ -89,4 +102,3 @@ class loldle:
                 result += icon + " "
             result += "\n"
         return result
-
