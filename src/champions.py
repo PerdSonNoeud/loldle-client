@@ -3,7 +3,7 @@ import parser
 
 
 def initChamp():
-    return parser.import()
+    return parser.importData()
     pass
 
 

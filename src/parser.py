@@ -1,7 +1,7 @@
 import json
 
 
-def import(pathfile: str = "assets/champions.json"):
+def importData(pathfile: str = "assets/champions.json"):
     """
     Function that gets the data from the json file given in argument.
 
