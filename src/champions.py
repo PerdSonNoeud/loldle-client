@@ -1,8 +1,9 @@
 import constants as cons
+import parser
 
 
 def initChamp():
-    # TODO: Import file from json file
+    return parser.import()
     pass
 
 
