@@ -8,7 +8,7 @@ def initChamp():
 
 def getChamp(name: str):
     for champ in Champion.champ_list:
-        if name == champ["name"]:
+        if name == champ["name"] or name == champ["alias"]:
             return champ
     return None
 

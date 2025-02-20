@@ -27,7 +27,6 @@ class Loldle:
         }
         self.champ = Champion(champ_dict)
         self.guesses = []
-        pass
 
     def guess(self, guess: Champion):
         # Champion
@@ -96,8 +95,8 @@ class Loldle:
         else:
             release = cons.good
 
-        # Return the result
-        return [icon, gender, positions, resource, range_type, regions, release]
+        # Add the result to the list
+        self.guesses.insert(0, [icon, gender, species, positions, resource, range_type, regions, release])
 
     def __str__(self):
         result = ""

@@ -2,6 +2,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
+import champions
 import constants as cons
 from loldle import Loldle
 
@@ -42,3 +43,42 @@ class CogLoldle(commands.Cog):
             text =  "Nouvelle partie commencée !"
             eph = False
         await message.response.send_message(content=text, ephemeral=eph)
+
+    @app_commands.command(name="guess", description="Deviner un champion.")
+    @app_commands.describe(name="Nom du champion à deviner.")
+    async def guess(self, message: discord.Interaction, name: str):
+        """
+        Function that try the champion the users has guessed.
+
+        :param message: Command of the user
+        :param name: Champion to guess
+        """
+        emb = None
+        text = None
+        eph = True
+
+        if self.isPlaying:
+            champ = champions.getChamp(name)
+            self.loldle.guess(champ)
+            last_guess = self.loldle.guesses[0]
+            
+            desc = (
+                f"{last_guess[0]} `{champ.name}`\n"
+                f"{last_guess[1]} `{champ.gender}`\n"
+                f"{last_guess[2]} `{champ.species}`\n"
+                f"{last_guess[3]} `{champ.positions}`\n"
+                f"{last_guess[4]} `{champ.resource}`\n"
+                f"{last_guess[5]} `{champ.range_type}`\n"
+                f"{last_guess[6]} `{champ.regions}`\n"
+                f"{last_guess[7]} `{champ.release}`\n"
+            )
+
+            emb = discord.Embed(
+                title=f"Essaie n°{len(self.loldle.guesses)}: `{name}`", 
+                description=desc, color=cons.emb_color
+            )
+
+        else:
+            text = "Aucune partie n'est en cours. Lancez une partie avec `/start`."
+
+        await message.response.send_message(emb=emb, content=text, ephemeral=eph)

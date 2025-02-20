@@ -3,10 +3,11 @@
         "name": "Aatrox",
         "alias": "aatrox",
         "gender": "male",
-        "resource": "Blood Well",
-        "range_type": "melee",
+        "resource": "Manaless",
+        "range_type": ["melee"],
         "release": 2013,
-        "region": "runeterra",
+        "region": "runeterra,shurima",
+        "species": ["Darkin"],
         "lane": "top"
     },
     {
@@ -14,39 +15,43 @@
         "alias": "ahri",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "ionia",
-        "lane": "mid"
+        "species": ["Vastayan"],
+        "lane": "middle"
     },
     {
         "name": "Akali",
         "alias": "akali",
         "gender": "female",
         "resource": "Energy",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "ionia",
-        "lane": "top,mid"
+        "species": ["Human"],
+        "lane": "top,middle"
     },
     {
         "name": "Akshan",
         "alias": "akshan",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2021,
         "region": "shurima",
-        "lane": "mid"
+        "species": ["Human"],
+        "lane": "middle"
     },
     {
         "name": "Alistar",
         "alias": "alistar",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "runeterra",
+        "species": ["Minotaur"],
         "lane": "support"
     },
     {
@@ -54,18 +59,21 @@
         "alias": "ambessa",
         "gender": "female",
         "resource": "Energy",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2025,
-        "region": "noxus"
+        "region": "noxus,piltover",
+        "species": ["Human"],
+        "lane": "top,jungle"
     },
     {
         "name": "Amumu",
         "alias": "amumu",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "shurima",
+        "species": ["Undead", "Yordle"],
         "lane": "jungle"
     },
     {
@@ -73,29 +81,32 @@
         "alias": "anivia",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "freljord",
-        "lane": "mid"
+        "species": ["God", "Spirit"],
+        "lane": "middle"
     },
     {
         "name": "Annie",
         "alias": "annie",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "runeterra",
-        "lane": "mid"
+        "region": "noxus,runeterra",
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Aphelios",
         "alias": "aphelios",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2019,
-        "region": "mount-targon",
+        "region": "targon",
+        "species": ["Human", "Spiritualist"],
         "lane": "bottom"
     },
     {
@@ -103,69 +114,76 @@
         "alias": "ashe",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "freljord",
+        "species": ["Human", "Iceborn"],
         "lane": "bottom,support"
     },
     {
         "name": "Aurelion Sol",
-        "alias": "aurelion sol",
+        "alias": "aurelionsol",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2016,
-        "region": "mount-targon",
-        "lane": "mid"
+        "region": "runeterra,targon",
+        "species": ["Celestial", "Dragon"],
+        "lane": "middle"
     },
     {
         "name": "Aurora",
         "alias": "aurora",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2024,
         "region": "freljord",
-        "lane": "top,mid"
+        "species": ["Vastayan"],
+        "lane": "top,middle"
     },
     {
         "name": "Azir",
         "alias": "azir",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2014,
         "region": "shurima",
-        "lane": "mid"
+        "species": ["God-Warrior"],
+        "lane": "middle"
     },
     {
         "name": "Bard",
         "alias": "bard",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2015,
         "region": "runeterra",
+        "species": ["Celestial"],
         "lane": "support"
     },
     {
         "name": "Bel'Veth",
-        "alias": "bel'veth",
+        "alias": "belveth",
         "gender": "female",
-        "resource": "",
-        "range_type": "melee",
+        "resource": "Manaless",
+        "range_type": ["melee"],
         "release": 2022,
         "region": "void",
+        "species": ["Void-being"],
         "lane": "jungle"
     },
     {
         "name": "Blitzcrank",
         "alias": "blitzcrank",
-        "gender": "male",
+        "gender": "Other",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "zaun",
+        "species": ["Golem"],
         "lane": "support"
     },
     {
@@ -173,9 +191,10 @@
         "alias": "brand",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
-        "region": "runeterra",
+        "region": "freljord,runeterra",
+        "species": ["Human", "Magically Altered"],
         "lane": "jungle,support"
     },
     {
@@ -183,19 +202,21 @@
         "alias": "braum",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2014,
         "region": "freljord",
+        "species": ["Human", "Iceborn"],
         "lane": "support"
     },
     {
         "name": "Briar",
         "alias": "briar",
         "gender": "female",
-        "resource": "Fury",
-        "range_type": "melee",
+        "resource": "Health costs",
+        "range_type": ["melee"],
         "release": 2023,
         "region": "noxus",
+        "species": ["Golem"],
         "lane": "jungle"
     },
     {
@@ -203,9 +224,10 @@
         "alias": "caitlyn",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "piltover",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
@@ -213,9 +235,10 @@
         "alias": "camille",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2016,
         "region": "piltover",
+        "species": ["Cyborg", "Human"],
         "lane": "top"
     },
     {
@@ -223,19 +246,21 @@
         "alias": "cassiopeia",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
-        "region": "noxus",
-        "lane": "mid"
+        "region": "noxus,shurima",
+        "species": ["Human", "Magically Altered"],
+        "lane": "middle"
     },
     {
         "name": "Cho'Gath",
-        "alias": "cho'gath",
-        "gender": "Other",
+        "alias": "chogath",
+        "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "void",
+        "species": ["Void-being"],
         "lane": "top"
     },
     {
@@ -243,19 +268,21 @@
         "alias": "corki",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "bandle-city",
-        "lane": "mid"
+        "region": "bandle-city,piltover",
+        "species": ["Yordle"],
+        "lane": "middle,bottom"
     },
     {
         "name": "Darius",
         "alias": "darius",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "noxus",
+        "species": ["Human"],
         "lane": "top"
     },
     {
@@ -263,29 +290,32 @@
         "alias": "diana",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
-        "region": "mount-targon",
-        "lane": "jungle,mid"
+        "region": "targon",
+        "species": ["Human", "Aspect"],
+        "lane": "jungle,middle"
     },
     {
         "name": "Draven",
         "alias": "draven",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "noxus",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
         "name": "Dr. Mundo",
-        "alias": "dr. mundo",
+        "alias": "drmundo",
         "gender": "male",
-        "resource": "None",
-        "range_type": "melee",
+        "resource": "Health costs",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "zaun",
+        "species": ["Chemically Altered", "Human"],
         "lane": "top"
     },
     {
@@ -293,10 +323,11 @@
         "alias": "ekko",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2015,
         "region": "zaun",
-        "lane": "jungle,mid"
+        "species": ["Human"],
+        "lane": "jungle,middle"
     },
     {
         "name": "Elise",
@@ -308,7 +339,8 @@
             "ranged"
         ],
         "release": 2012,
-        "region": "shadow-isles",
+        "region": "noxus,shadow-isles",
+        "species": ["Human", "Magically Altered"],
         "lane": "jungle"
     },
     {
@@ -316,9 +348,10 @@
         "alias": "evelynn",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "runeterra",
+        "species": ["Demon", "Spirit"],
         "lane": "jungle"
     },
     {
@@ -326,19 +359,21 @@
         "alias": "ezreal",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "piltover",
+        "species": ["Human", "Magicborn"],
         "lane": "bottom"
     },
     {
         "name": "Fiddlesticks",
         "alias": "fiddlesticks",
-        "gender": "male",
+        "gender": "Other",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "runeterra",
+        "species": ["Demon", "Spirit"],
         "lane": "jungle"
     },
     {
@@ -346,9 +381,10 @@
         "alias": "fiora",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "demacia",
+        "species": ["Human"],
         "lane": "top"
     },
     {
@@ -356,39 +392,43 @@
         "alias": "fizz",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "bilgewater",
-        "lane": "mid"
+        "species": ["Yordle"],
+        "lane": "middle"
     },
     {
         "name": "Galio",
         "alias": "galio",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "demacia",
-        "lane": "mid"
+        "species": ["Golem"],
+        "lane": "middle"
     },
     {
         "name": "Gangplank",
         "alias": "gangplank",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "bilgewater",
+        "species": ["Human"],
         "lane": "top"
     },
     {
         "name": "Garen",
         "alias": "garen",
         "gender": "male",
-        "resource": "None",
-        "range_type": "melee",
+        "resource": "Manaless",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "demacia",
+        "species": ["Human"],
         "lane": "top"
     },
     {
@@ -402,6 +442,7 @@
         ],
         "release": 2014,
         "region": "freljord",
+        "species": ["Yordle"],
         "lane": "top"
     },
     {
@@ -409,19 +450,21 @@
         "alias": "gragas",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "freljord",
-        "lane": "jungle"
+        "species": ["Human", "Iceborn"],
+        "lane": "jungle,top"
     },
     {
         "name": "Graves",
         "alias": "graves",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "bilgewater",
+        "species": ["Human"],
         "lane": "jungle"
     },
     {
@@ -429,19 +472,21 @@
         "alias": "gwen",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2021,
-        "region": "shadow-isles",
-        "lane": "top"
+        "region": "shadow-isles,camavor",
+        "species": ["Human", "Magically Altered"],
+        "lane": "top,jungle"
     },
     {
         "name": "Hecarim",
         "alias": "hecarim",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
-        "region": "shadow-isles",
+        "region": "shadow-isles,camavor",
+        "species": ["Undead"],
         "lane": "jungle"
     },
     {
@@ -449,29 +494,32 @@
         "alias": "heimerdinger",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "piltover",
-        "lane": "support"
+        "species": ["Yordle"],
+        "lane": "top,middle"
     },
     {
         "name": "Hwei",
         "alias": "hwei",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2023,
-        "region": "runeterra",
-        "lane": "mid,support"
+        "region": "ionia",
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Illaoi",
         "alias": "illaoi",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2015,
         "region": "bilgewater",
+        "species": ["Human", "Spiritualist"],
         "lane": "top"
     },
     {
@@ -479,19 +527,21 @@
         "alias": "irelia",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "ionia",
-        "lane": "top,mid"
+        "species": ["Human", "Spiritualist"],
+        "lane": "top,middle"
     },
     {
         "name": "Ivern",
         "alias": "ivern",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["ranged"],
         "release": 2016,
-        "region": "ionia",
+        "region": "ionia,freljord",
+        "species": ["Human", "Magically Altered"],
         "lane": "jungle"
     },
     {
@@ -499,9 +549,10 @@
         "alias": "janna",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "zaun",
+        "region": "zaun,shurima",
+        "species": ["God", "Spirit"],
         "lane": "support"
     },
     {
@@ -509,9 +560,10 @@
         "alias": "jarvan iv",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "demacia",
+        "species": ["Human"],
         "lane": "jungle"
     },
     {
@@ -519,9 +571,10 @@
         "alias": "jax",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
-        "region": "runeterra",
+        "region": "runeterra,icathia,shurima",
+        "species": ["Unknown"],
         "lane": "top,jungle"
     },
     {
@@ -535,16 +588,18 @@
         ],
         "release": 2012,
         "region": "piltover",
-        "lane": "top"
+        "species": ["Human"],
+        "lane": "top,middle"
     },
     {
         "name": "Jhin",
         "alias": "jhin",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2016,
         "region": "ionia",
+        "species": ["Human", "Spiritualist"],
         "lane": "bottom"
     },
     {
@@ -552,19 +607,32 @@
         "alias": "jinx",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2013,
         "region": "zaun",
+        "species": ["Human", "Chemically Altered"],
         "lane": "bottom"
     },
     {
+        "name": "K'Sante",
+        "alias": "ksante",
+        "gender": "male",
+        "resource": "Mana",
+        "range_type": ["melee"],
+        "release": 2022,
+        "region": "shurima",
+        "species": ["Human"],
+        "lane": "top"
+    },
+    {
         "name": "Kai'Sa",
-        "alias": "kai'sa",
+        "alias": "kaisa",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2018,
-        "region": "void",
+        "region": "void,shurima",
+        "species": ["Human", "Void-being"],
         "lane": "bottom"
     },
     {
@@ -572,9 +640,10 @@
         "alias": "kalista",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2014,
-        "region": "shadow-isles",
+        "region": "shadow-isles,camavor",
+        "species": ["Undead"],
         "lane": "bottom"
     },
     {
@@ -582,19 +651,21 @@
         "alias": "karma",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "ionia",
-        "lane": "mid,support"
+        "species": ["Human", "Spiritualist"],
+        "lane": "support"
     },
     {
         "name": "Karthus",
         "alias": "karthus",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "shadow-isles",
+        "region": "shadow-isles,noxus",
+        "species": ["Undead"],
         "lane": "jungle"
     },
     {
@@ -602,20 +673,22 @@
         "alias": "kassadin",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
-        "region": "void",
-        "lane": "mid"
+        "region": "void,shurima",
+        "species": ["Human", "Void-being"],
+        "lane": "middle"
     },
     {
         "name": "Katarina",
         "alias": "katarina",
         "gender": "female",
-        "resource": "None",
-        "range_type": "melee",
+        "resource": "Manaless",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "noxus",
-        "lane": "mid"
+        "species": ["Human"],
+        "lane": "middle"
     },
     {
         "name": "Kayle",
@@ -627,7 +700,8 @@
             "ranged"
         ],
         "release": 2009,
-        "region": "demacia",
+        "region": "demacia,targon",
+        "species": ["Aspect", "Human", "Magically Altered"],
         "lane": "top"
     },
     {
@@ -635,9 +709,10 @@
         "alias": "kayn",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2017,
-        "region": "ionia",
+        "region": "ionia,noxus,runeterra,shurima",
+        "species": ["Darkin", "Human", "Magically Altered"],
         "lane": "jungle"
     },
     {
@@ -645,9 +720,10 @@
         "alias": "kennen",
         "gender": "male",
         "resource": "Energy",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "ionia",
+        "species": ["Yordle"],
         "lane": "top"
     },
     {
@@ -655,19 +731,21 @@
         "alias": "kha'zix",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "void",
+        "species": ["Void-being"],
         "lane": "jungle"
     },
     {
         "name": "Kindred",
         "alias": "kindred",
-        "gender": "male",
+        "gender": "Other",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2015,
         "region": "runeterra",
+        "species": ["God", "Spirit"],
         "lane": "jungle"
     },
     {
@@ -675,9 +753,10 @@
         "alias": "kled",
         "gender": "male",
         "resource": "Courage",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2016,
         "region": "noxus",
+        "species": ["Yordle"],
         "lane": "top"
     },
     {
@@ -685,39 +764,32 @@
         "alias": "kog'maw",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "void",
+        "species": ["Void-being"],
         "lane": "bottom"
-    },
-    {
-        "name": "K'Sante",
-        "alias": "k'sante",
-        "gender": "male",
-        "resource": "Mana",
-        "range_type": "melee",
-        "release": 2022,
-        "region": "shurima",
-        "lane": "top"
-    },
+    },   
     {
         "name": "LeBlanc",
         "alias": "leblanc",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "noxus",
-        "lane": "mid"
+        "species": ["Human", "Magically Altered"],
+        "lane": "middle"
     },
     {
         "name": "Lee Sin",
         "alias": "lee sin",
         "gender": "male",
         "resource": "Energy",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "ionia",
+        "species": ["Human", "Spiritualist"],
         "lane": "jungle"
     },
     {
@@ -725,9 +797,10 @@
         "alias": "leona",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
-        "region": "mount-targon",
+        "region": "targon",
+        "species": ["Aspect", "Human"],
         "lane": "support"
     },
     {
@@ -735,9 +808,10 @@
         "alias": "lillia",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2020,
         "region": "ionia",
+        "species": ["Spirit"],
         "lane": "jungle"
     },
     {
@@ -745,19 +819,21 @@
         "alias": "lissandra",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2013,
         "region": "freljord",
-        "lane": "mid"
+        "species": ["Human", "Iceborn"],
+        "lane": "middle"
     },
     {
         "name": "Lucian",
         "alias": "lucian",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2013,
-        "region": "demacia",
+        "region": "demacia,shadow-isles",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
@@ -765,9 +841,10 @@
         "alias": "lulu",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "bandle-city",
+        "species": ["Yordle"],
         "lane": "support"
     },
     {
@@ -775,19 +852,21 @@
         "alias": "lux",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "demacia",
-        "lane": "mid,support"
+        "species": ["Human", "Magicborn"],
+        "lane": "middle,support"
     },
     {
         "name": "Malphite",
         "alias": "malphite",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
-        "region": "ixtal",
+        "region": "ixtal,shurima",
+        "species": ["Golem"],
         "lane": "top"
     },
     {
@@ -795,49 +874,65 @@
         "alias": "malzahar",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
-        "region": "void",
-        "lane": "mid"
+        "region": "void,shurima",
+        "species": ["Human", "Void-being"],
+        "lane": "middle"
     },
     {
         "name": "Maokai",
         "alias": "maokai",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "shadow-isles",
-        "lane": "support"
+        "species": ["Spirit"],
+        "lane": "support,top"
     },
     {
         "name": "Master Yi",
         "alias": "master yi",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "ionia",
+        "species": ["Human", "Spiritualist"],
         "lane": "jungle"
+    },
+    {
+        "name": "Mel",
+        "alias": "mel",
+        "gender": "female",
+        "resource": "Mana",
+        "range_type": ["ranged"],
+        "release": 2025,
+        "region": "noxus,piltover",
+        "species": ["Human", "Magically Altered"],
+        "lane": "middle,support"
     },
     {
         "name": "Milio",
         "alias": "milio",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2023,
         "region": "ixtal",
+        "species": ["Human", "Magicborn"],
         "lane": "support"
     },
     {
         "name": "Miss Fortune",
-        "alias": "miss fortune",
+        "alias": "missfortune",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "bilgewater",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
@@ -845,19 +940,21 @@
         "alias": "wukong",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "ionia",
-        "lane": "jungle"
+        "species": ["Vastayan"],
+        "lane": "jungle,top"
     },
     {
         "name": "Mordekaiser",
         "alias": "mordekaiser",
         "gender": "male",
         "resource": "Shield",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
-        "region": "noxus",
+        "region": "noxus,shadow-isles",
+        "species": ["Revenant"],
         "lane": "top"
     },
     {
@@ -865,9 +962,10 @@
         "alias": "morgana",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "demacia",
+        "region": "demacia,targon",
+        "species": ["Aspect", "Human", "Magically Altered"],
         "lane": "support"
     },
     {
@@ -875,19 +973,21 @@
         "alias": "naafiri",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2023,
         "region": "shurima",
-        "lane": "mid"
+        "species": ["Darkin", "Dog"],
+        "lane": "middle"
     },
     {
         "name": "Nami",
         "alias": "nami",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
-        "region": "runeterra",
+        "region": "runeterra,bilgewater",
+        "species": ["Vastayan"],
         "lane": "support"
     },
     {
@@ -895,9 +995,10 @@
         "alias": "nasus",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "shurima",
+        "species": ["God-Warrior"],
         "lane": "top"
     },
     {
@@ -905,9 +1006,10 @@
         "alias": "nautilus",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "bilgewater",
+        "species": ["Revenant"],
         "lane": "support"
     },
     {
@@ -915,10 +1017,11 @@
         "alias": "neeko",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2018,
         "region": "ixtal",
-        "lane": "mid,support"
+        "species": ["Vastayan"],
+        "lane": "middle,support"
     },
     {
         "name": "Nidalee",
@@ -931,6 +1034,7 @@
         ],
         "release": 2009,
         "region": "ixtal",
+        "species": ["Human", "Spiritualist"],
         "lane": "jungle"
     },
     {
@@ -938,9 +1042,10 @@
         "alias": "nilah",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2022,
         "region": "runeterra",
+        "species": ["Human", "Magically Altered"],
         "lane": "bottom"
     },
     {
@@ -948,9 +1053,10 @@
         "alias": "nocturne",
         "gender": "Other",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "runeterra",
+        "species": ["Demon", "Spirit"],
         "lane": "jungle"
     },
     {
@@ -958,9 +1064,10 @@
         "alias": "nunu & willump",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "freljord",
+        "species": ["Human", "Yeti"],
         "lane": "jungle"
     },
     {
@@ -968,9 +1075,10 @@
         "alias": "olaf",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "freljord",
+        "species": ["Human", "Iceborn"],
         "lane": "top"
     },
     {
@@ -978,19 +1086,21 @@
         "alias": "orianna",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "piltover",
-        "lane": "mid"
+        "species": ["Golem"],
+        "lane": "middle"
     },
     {
         "name": "Ornn",
         "alias": "ornn",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2017,
         "region": "freljord",
+        "species": ["God", "Spirit"],
         "lane": "top"
     },
     {
@@ -998,9 +1108,10 @@
         "alias": "pantheon",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
-        "region": "mount-targon",
+        "region": "targon",
+        "species": ["Human", "Aspect"],
         "lane": "top,support"
     },
     {
@@ -1008,19 +1119,21 @@
         "alias": "poppy",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "demacia",
-        "lane": "top,jungle"
+        "species": ["Yordle"],
+        "lane": "top,support"
     },
     {
         "name": "Pyke",
         "alias": "pyke",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2018,
         "region": "bilgewater",
+        "species": ["Revenant"],
         "lane": "support"
     },
     {
@@ -1028,19 +1141,21 @@
         "alias": "qiyana",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2019,
         "region": "ixtal",
-        "lane": "mid"
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Quinn",
         "alias": "quinn",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2013,
         "region": "demacia",
+        "species": ["Human"],
         "lane": "top"
     },
     {
@@ -1048,9 +1163,10 @@
         "alias": "rakan",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2017,
         "region": "ionia",
+        "species": ["Vastayan"],
         "lane": "support"
     },
     {
@@ -1058,19 +1174,21 @@
         "alias": "rammus",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "shurima",
+        "species": ["Unknown"],
         "lane": "jungle"
     },
     {
         "name": "Rek'Sai",
-        "alias": "rek'sai",
+        "alias": "reksai",
         "gender": "female",
         "resource": "Rage",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2014,
-        "region": "void",
+        "region": "void,shurima",
+        "species": ["Void-being"],
         "lane": "jungle"
     },
     {
@@ -1078,9 +1196,10 @@
         "alias": "rell",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2020,
         "region": "noxus",
+        "species": ["Human", "Magically Altered", "Magicborn"],
         "lane": "support"
     },
     {
@@ -1088,9 +1207,10 @@
         "alias": "renata glasc",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2022,
         "region": "zaun",
+        "species": ["Chemically Altered", "Human"],
         "lane": "support"
     },
     {
@@ -1098,9 +1218,10 @@
         "alias": "renekton",
         "gender": "male",
         "resource": "Fury",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "shurima",
+        "species": ["God-Warrior"],
         "lane": "top"
     },
     {
@@ -1108,19 +1229,21 @@
         "alias": "rengar",
         "gender": "male",
         "resource": "Ferocity",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
-        "region": "ixtal",
+        "region": "ixtal,shurima",
+        "species": ["Vastayan"],
         "lane": "jungle"
     },
     {
         "name": "Riven",
         "alias": "riven",
         "gender": "female",
-        "resource": "None",
-        "range_type": "melee",
+        "resource": "Manaless",
+        "range_type": ["melee"],
         "release": 2011,
-        "region": "noxus",
+        "region": "noxus,ionia",
+        "species": ["Human"],
         "lane": "top"
     },
     {
@@ -1128,9 +1251,10 @@
         "alias": "rumble",
         "gender": "male",
         "resource": "Heat",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "bandle-city",
+        "species": ["Yordle"],
         "lane": "top"
     },
     {
@@ -1138,19 +1262,21 @@
         "alias": "ryze",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "runeterra",
-        "lane": "mid"
+        "species": ["Human", "Magically Altered"],
+        "lane": "middle,top"
     },
     {
         "name": "Samira",
         "alias": "samira",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2020,
-        "region": "noxus",
+        "region": "noxus,shurima",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
@@ -1158,9 +1284,10 @@
         "alias": "sejuani",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "freljord",
+        "species": ["Human", "Iceborn"],
         "lane": "jungle"
     },
     {
@@ -1168,29 +1295,32 @@
         "alias": "senna",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2019,
-        "region": "runeterra",
-        "lane": "bottom,support"
+        "region": "shadow-isles",
+        "species": ["Human", "Undead"],
+        "lane": "support"
     },
     {
         "name": "Seraphine",
         "alias": "seraphine",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2020,
-        "region": "piltover",
-        "lane": "bottom,support"
+        "region": "piltover,zaun",
+        "species": ["Human", "Magicborn"],
+        "lane": "support"
     },
     {
         "name": "Sett",
         "alias": "sett",
         "gender": "male",
         "resource": "Grit",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2020,
         "region": "ionia",
+        "species": ["Human", "Vastayan"],
         "lane": "top"
     },
     {
@@ -1198,9 +1328,10 @@
         "alias": "shaco",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "runeterra",
+        "species": ["Spirit"],
         "lane": "jungle"
     },
     {
@@ -1208,19 +1339,21 @@
         "alias": "shen",
         "gender": "male",
         "resource": "Energy",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "ionia",
-        "lane": "top"
+        "species": ["Human", "Spiritualist"],
+        "lane": "top,support"
     },
     {
         "name": "Shyvana",
         "alias": "shyvana",
         "gender": "female",
         "resource": "Fury",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "demacia",
+        "species": ["Dragon", "Magically Altered"],
         "lane": "jungle"
     },
     {
@@ -1228,9 +1361,10 @@
         "alias": "singed",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
-        "region": "zaun",
+        "region": "zaun,piltover",
+        "species": ["Chemically Altered", "Human"],
         "lane": "top"
     },
     {
@@ -1238,9 +1372,10 @@
         "alias": "sion",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "noxus",
+        "species": ["Revenant"],
         "lane": "top"
     },
     {
@@ -1248,9 +1383,10 @@
         "alias": "sivir",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "shurima",
+        "species": ["Human"],
         "lane": "bottom"
     },
     {
@@ -1258,29 +1394,32 @@
         "alias": "skarner",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "ixtal",
-        "lane": "top,jungle"
+        "species": ["Brackern"],
+        "lane": "jungle"
     },
     {
         "name": "Smolder",
         "alias": "smolder",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2024,
-        "region": "runeterra",
-        "lane": "bottom"
+        "region": "camavor,noxus",
+        "species": ["Dragon"],
+        "lane": "bottom,middle"
     },
     {
         "name": "Sona",
         "alias": "sona",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
-        "region": "demacia",
+        "region": "demacia,ionia",
+        "species": ["Human", "Magicborn"],
         "lane": "support"
     },
     {
@@ -1288,9 +1427,10 @@
         "alias": "soraka",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
-        "region": "mount-targon",
+        "region": "targon,ionia",
+        "species": ["Celestial"],
         "lane": "support"
     },
     {
@@ -1298,9 +1438,10 @@
         "alias": "swain",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2010,
         "region": "noxus",
+        "species": ["Human", "Magically Altered"],
         "lane": "support"
     },
     {
@@ -1308,58 +1449,65 @@
         "alias": "sylas",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2019,
-        "region": "demacia",
-        "lane": "mid"
+        "region": "demacia,freljord",
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Syndra",
         "alias": "syndra",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "ionia",
-        "lane": "mid"
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Tahm Kench",
         "alias": "tahm kench",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2015,
-        "region": "bilgewater",
-        "lane": "top"
+        "region": "bilgewater,runeterra",
+        "species": ["Demon", "Spirit"],
+        "lane": "top,support"
     },
     {
         "name": "Taliyah",
         "alias": "taliyah",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2016,
         "region": "shurima",
-        "lane": "jungle"
+        "species": ["Human", "Magicborn"],
+        "lane": "jungle,middle"
     },
     {
         "name": "Talon",
         "alias": "talon",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
-        "region": "noxus"
+        "region": "noxus",
+        "species": ["Human"],
+        "lane": "jundle,middle"
     },
     {
         "name": "Taric",
         "alias": "taric",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
-        "region": "mount-targon",
+        "region": "targon",
+        "species": ["Aspect", "Human"],
         "lane": "support"
     },
     {
@@ -1367,19 +1515,21 @@
         "alias": "teemo",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "bandle-city",
-        "lane": "top"
+        "species": ["Yordle"],
+        "lane": "top,jungle"
     },
     {
         "name": "Thresh",
         "alias": "thresh",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["ranged"],
         "release": 2013,
         "region": "shadow-isles",
+        "species": ["Undead"],
         "lane": "support"
     },
     {
@@ -1387,9 +1537,10 @@
         "alias": "tristana",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "bandle-city",
+        "species": ["Yordle"],
         "lane": "bottom"
     },
     {
@@ -1397,19 +1548,21 @@
         "alias": "trundle",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "freljord",
-        "lane": "top"
+        "species": ["Iceborn", "Troll"],
+        "lane": "top,jungle"
     },
     {
         "name": "Tryndamere",
         "alias": "tryndamere",
         "gender": "male",
         "resource": "Fury",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "freljord",
+        "species": ["Human", "Magically Altered"],
         "lane": "top"
     },
     {
@@ -1417,19 +1570,21 @@
         "alias": "twisted fate",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "bilgewater",
-        "lane": "mid,bottom"
+        "species": ["Human", "Magicborn"],
+        "lane": "middle"
     },
     {
         "name": "Twitch",
         "alias": "twitch",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "zaun",
+        "species": ["Chemically Altered", "Rat"],
         "lane": "bottom"
     },
     {
@@ -1437,7 +1592,7 @@
         "alias": "udyr",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "freljord",
         "lane": "top,jungle"
@@ -1447,7 +1602,7 @@
         "alias": "urgot",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "zaun",
         "lane": "top"
@@ -1457,7 +1612,7 @@
         "alias": "varus",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "ionia",
         "lane": "bottom"
@@ -1467,7 +1622,7 @@
         "alias": "vayne",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "demacia",
         "lane": "bottom"
@@ -1477,17 +1632,17 @@
         "alias": "veigar",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "bandle-city",
-        "lane": "mid"
+        "lane": "middle"
     },
     {
         "name": "Vel'Koz",
         "alias": "vel'koz",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2014,
         "region": "void",
         "lane": "support"
@@ -1497,17 +1652,17 @@
         "alias": "vex",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2021,
         "region": "shadow-isles",
-        "lane": "mid"
+        "lane": "middle"
     },
     {
         "name": "Vi",
         "alias": "vi",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "piltover",
         "lane": "jungle"
@@ -1517,7 +1672,7 @@
         "alias": "viego",
         "gender": "male",
         "resource": "None",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2021,
         "region": "shadow-isles",
         "lane": "jungle"
@@ -1527,27 +1682,27 @@
         "alias": "viktor",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "zaun",
-        "lane": "mid"
+        "lane": "middle"
     },
     {
         "name": "Vladimir",
         "alias": "vladimir",
         "gender": "male",
         "resource": "Crimson Rush",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "noxus",
-        "lane": "mid"
+        "lane": "middle"
     },
     {
         "name": "Volibear",
         "alias": "volibear",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "freljord",
         "lane": "top"
@@ -1557,7 +1712,7 @@
         "alias": "warwick",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2009,
         "region": "zaun",
         "lane": "jungle"
@@ -1567,7 +1722,7 @@
         "alias": "xayah",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2017,
         "region": "ionia",
         "lane": "bottom"
@@ -1577,17 +1732,17 @@
         "alias": "xerath",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2011,
         "region": "shurima",
-        "lane": "mid,support"
+        "lane": "middle,support"
     },
     {
         "name": "Xin Zhao",
         "alias": "xin zhao",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2010,
         "region": "demacia",
         "lane": "jungle"
@@ -1597,27 +1752,27 @@
         "alias": "yasuo",
         "gender": "male",
         "resource": "Flow",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2013,
         "region": "ionia",
-        "lane": "top,mid,bottom"
+        "lane": "top,middle,bottom"
     },
     {
         "name": "Yone",
         "alias": "yone",
         "gender": "male",
         "resource": "Flow",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2020,
         "region": "ionia",
-        "lane": "top,mid"
+        "lane": "top,middle"
     },
     {
         "name": "Yorick",
         "alias": "yorick",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2011,
         "region": "shadow-isles",
         "lane": "top"
@@ -1627,7 +1782,7 @@
         "alias": "yuumi",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2019,
         "region": "bandle-city",
         "lane": "support"
@@ -1637,7 +1792,7 @@
         "alias": "zac",
         "gender": "male",
         "resource": "None",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2013,
         "region": "zaun",
         "lane": "jungle"
@@ -1647,17 +1802,17 @@
         "alias": "zed",
         "gender": "male",
         "resource": "Energy",
-        "range_type": "melee",
+        "range_type": ["melee"],
         "release": 2012,
         "region": "ionia",
-        "lane": "mid"
+        "lane": "middle"
     },
     {
         "name": "Zeri",
         "alias": "zeri",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2022,
         "region": "zaun",
         "lane": "bottom"
@@ -1667,7 +1822,7 @@
         "alias": "ziggs",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "zaun",
         "lane": "bottom"
@@ -1677,7 +1832,7 @@
         "alias": "zilean",
         "gender": "male",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2009,
         "region": "runeterra",
         "lane": "support"
@@ -1687,17 +1842,17 @@
         "alias": "zoe",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2017,
-        "region": "mount-targon",
-        "lane": "mid"
+        "region": "targon",
+        "lane": "middle"
     },
     {
         "name": "Zyra",
         "alias": "zyra",
         "gender": "female",
         "resource": "Mana",
-        "range_type": "ranged",
+        "range_type": ["ranged"],
         "release": 2012,
         "region": "ixtal",
         "lane": "support"
