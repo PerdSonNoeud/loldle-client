@@ -8,5 +8,5 @@ def importData(pathfile: str = "assets/champions.json"):
     :param pathfile: Path to the file
     :return: List of dict of the champion
     """
-    pass
-
+    with open(pathfile) as file:
+        return json.load(file)

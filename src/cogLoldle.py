@@ -55,30 +55,34 @@ class CogLoldle(commands.Cog):
         """
         emb = None
         text = None
-        eph = True
+        eph = False
 
         if self.isPlaying:
             champ = champions.getChamp(name)
-            self.loldle.guess(champ)
-            last_guess = self.loldle.guesses[0]
-            
-            desc = (
-                f"{last_guess[0]} `{champ.name}`\n"
-                f"{last_guess[1]} `{champ.gender}`\n"
-                f"{last_guess[2]} `{champ.species}`\n"
-                f"{last_guess[3]} `{champ.positions}`\n"
-                f"{last_guess[4]} `{champ.resource}`\n"
-                f"{last_guess[5]} `{champ.range_type}`\n"
-                f"{last_guess[6]} `{champ.regions}`\n"
-                f"{last_guess[7]} `{champ.release}`\n"
-            )
+            if not champ:
+                text = "Champion inconnu."
+                eph = True
+            else:
+                self.loldle.guess(champ)
+                last_guess = self.loldle.guesses[0]
+                
+                desc = (
+                    f"{last_guess[0]} `{champ.name}`\n"
+                    f"{last_guess[1]} `{champ.gender}`\n"
+                    f"{last_guess[2]} `{", ".join(champ.species)}`\n"
+                    f"{last_guess[3]} `{", ".join(champ.positions)}`\n"
+                    f"{last_guess[4]} `{champ.resource}`\n"
+                    f"{last_guess[5]} `{", ".join(champ.range_type)}`\n"
+                    f"{last_guess[6]} `{", ".join(champ.regions)}`\n"
+                    f"{last_guess[7]} `{champ.release}`\n"
+                )
 
-            emb = discord.Embed(
-                title=f"Essaie n°{len(self.loldle.guesses)}: `{name}`", 
-                description=desc, color=cons.emb_color
-            )
-
+                emb = discord.Embed(
+                    title=f"Essaie n°{len(self.loldle.guesses)}: `{name}`", 
+                    description=desc, color=cons.emb_color
+                )
         else:
             text = "Aucune partie n'est en cours. Lancez une partie avec `/start`."
+            eph = True
 
-        await message.response.send_message(emb=emb, content=text, ephemeral=eph)
+        await message.response.send_message(embed=emb, content=text, ephemeral=eph)

@@ -4,13 +4,13 @@ import parser
 
 def initChamp():
     return parser.importData()
-    pass
 
 
 def getChamp(name: str):
     for champ in Champion.champ_list:
         if name == champ["name"] or name == champ["alias"]:
-            return champ
+            print(champ)
+            return Champion(champ)
     return None
 
 

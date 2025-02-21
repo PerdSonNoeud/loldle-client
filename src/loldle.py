@@ -1,30 +1,17 @@
 import random as rd
 
 import constants as cons
-from champions import Champion, initChamp
+from champions import Champion
 
 
 class Loldle:
     def __init__(self):
         self.champ = None
         self.guesses = []
-        
-        # Initialize champions
-        initChamp()
 
     def start(self):
-        # TODO: Import a random dict from a database
-        champ_dict = {
-            "name": "Aurelion Sol",
-            "alias": "aurelionsol",
-            "gender": "Male",
-            "positions": ["Mid"],
-            "species": ["Celestial", "Dragon"],
-            "resource": "Mana",
-            "range_type": ["ranged"],
-            "regions": ["Runeterra", "Targon"],
-            "release": 2016
-        }
+        champ_dict = rd.choice(Champion.champ_list)
+        print("Champion aléatoire:", champ_dict)
         self.champ = Champion(champ_dict)
         self.guesses = []
 
@@ -61,7 +48,7 @@ class Loldle:
             species = cons.good
 
         # Resources
-        resource = cons.green if self.champ.resource == guess.resource else cons.wrong
+        resource = cons.good if self.champ.resource == guess.resource else cons.wrong
 
         # Range type
         n = 0
@@ -90,7 +77,7 @@ class Loldle:
         # Release Year
         if self.champ.release > guess.release:
             release = cons.higher
-        elif self.champ.release < gess.release:
+        elif self.champ.release < guess.release:
             release = cons.lower
         else:
             release = cons.good

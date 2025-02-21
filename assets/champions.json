@@ -6,9 +6,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2013,
-        "region": ["runeterra", "shurima"],
+        "regions": ["runeterra", "shurima"],
         "species": ["Darkin"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Ahri",
@@ -17,9 +17,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Vastayan"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Akali",
@@ -28,9 +28,9 @@
         "resource": "Energy",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Akshan",
@@ -39,9 +39,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2021,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Human"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Alistar",
@@ -50,9 +50,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Minotaur"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Ambessa",
@@ -61,9 +61,9 @@
         "resource": "Energy",
         "range_type": ["melee"],
         "release": 2025,
-        "region": ["noxus", "piltover"],
+        "regions": ["noxus", "piltover"],
         "species": ["Human"],
-        "lane": ["top", "jungle"]
+        "positions": ["top", "jungle"]
     },
     {
         "name": "Amumu",
@@ -72,9 +72,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Undead", "Yordle"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Anivia",
@@ -83,9 +83,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["God", "Spirit"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Annie",
@@ -94,9 +94,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["noxus", "runeterra"],
+        "regions": ["noxus", "runeterra"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Aphelios",
@@ -105,9 +105,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2019,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Ashe",
@@ -116,9 +116,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["bottom", "support"]
+        "positions": ["bottom", "support"]
     },
     {
         "name": "Aurelion Sol",
@@ -127,9 +127,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2016,
-        "region": ["runeterra", "targon"],
+        "regions": ["runeterra", "targon"],
         "species": ["Celestial", "Dragon"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Aurora",
@@ -138,9 +138,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2024,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Vastayan"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Azir",
@@ -149,9 +149,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2014,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["God-Warrior"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Bard",
@@ -160,9 +160,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2015,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Celestial"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Bel'Veth",
@@ -171,9 +171,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2022,
-        "region": ["void"],
+        "regions": ["void"],
         "species": ["Void-being"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Blitzcrank",
@@ -182,9 +182,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Golem"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Brand",
@@ -193,9 +193,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["freljord", "runeterra"],
+        "regions": ["freljord", "runeterra"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["jungle", "support"]
+        "positions": ["jungle", "support"]
     },
     {
         "name": "Braum",
@@ -204,9 +204,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2014,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Briar",
@@ -215,9 +215,9 @@
         "resource": "Health costs",
         "range_type": ["melee"],
         "release": 2023,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Golem"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Caitlyn",
@@ -226,9 +226,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Camille",
@@ -237,9 +237,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2016,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Cyborg", "Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Cassiopeia",
@@ -248,9 +248,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["noxus", "shurima"],
+        "regions": ["noxus", "shurima"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Cho'Gath",
@@ -259,9 +259,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["void"],
+        "regions": ["void"],
         "species": ["Void-being"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Corki",
@@ -270,9 +270,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["bandle-city", "piltover"],
+        "regions": ["bandle-city", "piltover"],
         "species": ["Yordle"],
-        "lane": "middle,bottom"
+        "positions": "middle,bottom"
     },
     {
         "name": "Darius",
@@ -281,9 +281,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Diana",
@@ -292,9 +292,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Human", "Aspect"],
-        "lane": ["jungle", "middle"]
+        "positions": ["jungle", "middle"]
     },
     {
         "name": "Draven",
@@ -303,9 +303,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Dr. Mundo",
@@ -314,9 +314,9 @@
         "resource": "Health costs",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Chemically Altered", "Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Ekko",
@@ -325,9 +325,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2015,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Human"],
-        "lane": ["jungle", "middle"]
+        "positions": ["jungle", "middle"]
     },
     {
         "name": "Elise",
@@ -339,9 +339,9 @@
             "ranged"
         ],
         "release": 2012,
-        "region": ["noxus", "shadow-isles"],
+        "regions": ["noxus", "shadow-isles"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Evelynn",
@@ -350,9 +350,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Demon", "Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Ezreal",
@@ -361,9 +361,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Human", "Magicborn"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Fiddlesticks",
@@ -372,9 +372,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Demon", "Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Fiora",
@@ -383,9 +383,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Fizz",
@@ -394,9 +394,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Yordle"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Galio",
@@ -405,9 +405,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Golem"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Gangplank",
@@ -416,9 +416,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Garen",
@@ -427,9 +427,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Gnar",
@@ -441,9 +441,9 @@
             "ranged"
         ],
         "release": 2014,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Yordle"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Gragas",
@@ -452,9 +452,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Graves",
@@ -463,9 +463,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Human"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Gwen",
@@ -474,9 +474,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2021,
-        "region": ["shadow-isles", "camavor"],
+        "regions": ["shadow-isles", "camavor"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Hecarim",
@@ -485,9 +485,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["shadow-isles", "camavor"],
+        "regions": ["shadow-isles", "camavor"],
         "species": ["Undead"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Heimerdinger",
@@ -496,9 +496,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Yordle"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Hwei",
@@ -507,9 +507,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2023,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Illaoi",
@@ -518,9 +518,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2015,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Irelia",
@@ -529,9 +529,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Ivern",
@@ -540,9 +540,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2016,
-        "region": ["ionia", "freljord"],
+        "regions": ["ionia", "freljord"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Janna",
@@ -551,9 +551,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["zaun", "shurima"],
+        "regions": ["zaun", "shurima"],
         "species": ["God", "Spirit"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Jarvan IV",
@@ -562,9 +562,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Jax",
@@ -573,9 +573,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["runeterra", "icathia", "shurima"],
+        "regions": ["runeterra", "icathia", "shurima"],
         "species": ["Unknown"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Jayce",
@@ -587,9 +587,9 @@
             "ranged"
         ],
         "release": 2012,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Human"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Jhin",
@@ -598,9 +598,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2016,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Jinx",
@@ -609,9 +609,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2013,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Human", "Chemically Altered"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "K'Sante",
@@ -620,9 +620,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2022,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Kai'Sa",
@@ -631,9 +631,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2018,
-        "region": ["void", "shurima"],
+        "regions": ["void", "shurima"],
         "species": ["Human", "Void-being"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Kalista",
@@ -642,9 +642,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2014,
-        "region": ["shadow-isles", "camavor"],
+        "regions": ["shadow-isles", "camavor"],
         "species": ["Undead"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Karma",
@@ -653,9 +653,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Karthus",
@@ -664,9 +664,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["shadow-isles", "noxus"],
+        "regions": ["shadow-isles", "noxus"],
         "species": ["Undead"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Kassadin",
@@ -675,9 +675,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["void", "shurima"],
+        "regions": ["void", "shurima"],
         "species": ["Human", "Void-being"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Katarina",
@@ -686,9 +686,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Kayle",
@@ -700,9 +700,9 @@
             "ranged"
         ],
         "release": 2009,
-        "region": ["demacia", "targon"],
+        "regions": ["demacia", "targon"],
         "species": ["Aspect", "Human", "Magically Altered"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Kayn",
@@ -711,9 +711,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2017,
-        "region": ["ionia", "noxus", "runeterra", "shurima"],
+        "regions": ["ionia", "noxus", "runeterra", "shurima"],
         "species": ["Darkin", "Human", "Magically Altered"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Kennen",
@@ -722,9 +722,9 @@
         "resource": "Energy",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Yordle"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Kha'Zix",
@@ -733,9 +733,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["void"],
+        "regions": ["void"],
         "species": ["Void-being"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Kindred",
@@ -744,9 +744,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2015,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["God", "Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Kled",
@@ -755,9 +755,9 @@
         "resource": "Courage",
         "range_type": ["melee"],
         "release": 2016,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Yordle"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Kog'Maw",
@@ -766,9 +766,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["void"],
+        "regions": ["void"],
         "species": ["Void-being"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },   
     {
         "name": "LeBlanc",
@@ -777,9 +777,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Lee Sin",
@@ -788,9 +788,9 @@
         "resource": "Energy",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Leona",
@@ -799,9 +799,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Aspect", "Human"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Lillia",
@@ -810,9 +810,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2020,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Lissandra",
@@ -821,9 +821,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2013,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Lucian",
@@ -832,9 +832,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2013,
-        "region": ["demacia", "shadow-isles"],
+        "regions": ["demacia", "shadow-isles"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Lulu",
@@ -843,9 +843,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["bandle-city"],
+        "regions": ["bandle-city"],
         "species": ["Yordle"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Lux",
@@ -854,9 +854,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle", "support"]
+        "positions": ["middle", "support"]
     },
     {
         "name": "Malphite",
@@ -865,9 +865,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["ixtal", "shurima"],
+        "regions": ["ixtal", "shurima"],
         "species": ["Golem"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Malzahar",
@@ -876,9 +876,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["void", "shurima"],
+        "regions": ["void", "shurima"],
         "species": ["Human", "Void-being"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Maokai",
@@ -887,9 +887,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["shadow-isles"],
+        "regions": ["shadow-isles"],
         "species": ["Spirit"],
-        "lane": ["support", "top"]
+        "positions": ["support", "top"]
     },
     {
         "name": "Master Yi",
@@ -898,9 +898,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Mel",
@@ -909,9 +909,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2025,
-        "region": ["noxus", "piltover"],
+        "regions": ["noxus", "piltover"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle", "support"]
+        "positions": ["middle", "support"]
     },
     {
         "name": "Milio",
@@ -920,9 +920,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2023,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Human", "Magicborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Miss Fortune",
@@ -931,9 +931,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Wukong",
@@ -942,9 +942,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Vastayan"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Mordekaiser",
@@ -953,9 +953,9 @@
         "resource": "Shield",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["noxus", "shadow-isles"],
+        "regions": ["noxus", "shadow-isles"],
         "species": ["Revenant"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Morgana",
@@ -964,9 +964,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["demacia", "targon"],
+        "regions": ["demacia", "targon"],
         "species": ["Aspect", "Human", "Magically Altered"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Naafiri",
@@ -975,9 +975,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2023,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Darkin", "Dog"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Nami",
@@ -986,9 +986,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["runeterra", "bilgewater"],
+        "regions": ["runeterra", "bilgewater"],
         "species": ["Vastayan"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Nasus",
@@ -997,9 +997,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["God-Warrior"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Nautilus",
@@ -1008,9 +1008,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Revenant"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Neeko",
@@ -1019,9 +1019,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2018,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Vastayan"],
-        "lane": ["middle", "support"]
+        "positions": ["middle", "support"]
     },
     {
         "name": "Nidalee",
@@ -1033,9 +1033,9 @@
             "ranged"
         ],
         "release": 2009,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Nilah",
@@ -1044,9 +1044,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2022,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Nocturne",
@@ -1055,9 +1055,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Demon", "Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Nunu & Willump",
@@ -1066,9 +1066,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Yeti"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Olaf",
@@ -1077,9 +1077,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Orianna",
@@ -1088,9 +1088,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["piltover"],
+        "regions": ["piltover"],
         "species": ["Golem"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Ornn",
@@ -1099,9 +1099,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2017,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["God", "Spirit"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Pantheon",
@@ -1110,9 +1110,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Human", "Aspect"],
-        "lane": ["top", "support"]
+        "positions": ["top", "support"]
     },
     {
         "name": "Poppy",
@@ -1121,9 +1121,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Yordle"],
-        "lane": ["top", "support"]
+        "positions": ["top", "support"]
     },
     {
         "name": "Pyke",
@@ -1132,9 +1132,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2018,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Revenant"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Qiyana",
@@ -1143,9 +1143,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2019,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Quinn",
@@ -1154,9 +1154,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2013,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Rakan",
@@ -1165,9 +1165,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2017,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Vastayan"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Rammus",
@@ -1176,9 +1176,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Unknown"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Rek'Sai",
@@ -1187,9 +1187,9 @@
         "resource": "Rage",
         "range_type": ["melee"],
         "release": 2014,
-        "region": ["void", "shurima"],
+        "regions": ["void", "shurima"],
         "species": ["Void-being"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Rell",
@@ -1198,9 +1198,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2020,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human", "Magically Altered", "Magicborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Renata Glasc",
@@ -1209,9 +1209,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2022,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Chemically Altered", "Human"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Renekton",
@@ -1220,9 +1220,9 @@
         "resource": "Fury",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["God-Warrior"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Rengar",
@@ -1231,9 +1231,9 @@
         "resource": "Ferocity",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["ixtal", "shurima"],
+        "regions": ["ixtal", "shurima"],
         "species": ["Vastayan"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Riven",
@@ -1242,9 +1242,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2011,
-        "region": "noxus,ionia",
+        "regions": "noxus,ionia",
         "species": ["Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Rumble",
@@ -1253,9 +1253,9 @@
         "resource": "Heat",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["bandle-city"],
+        "regions": ["bandle-city"],
         "species": ["Yordle"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Ryze",
@@ -1264,9 +1264,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle", "top"]
+        "positions": ["middle", "top"]
     },
     {
         "name": "Samira",
@@ -1275,9 +1275,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2020,
-        "region": ["noxus", "shurima"],
+        "regions": ["noxus", "shurima"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Sejuani",
@@ -1286,9 +1286,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Iceborn"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Senna",
@@ -1297,9 +1297,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2019,
-        "region": ["shadow-isles"],
+        "regions": ["shadow-isles"],
         "species": ["Human", "Undead"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Seraphine",
@@ -1308,9 +1308,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2020,
-        "region": "piltover,zaun",
+        "regions": "piltover,zaun",
         "species": ["Human", "Magicborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Sett",
@@ -1319,9 +1319,9 @@
         "resource": "Grit",
         "range_type": ["melee"],
         "release": 2020,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Vastayan"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Shaco",
@@ -1330,9 +1330,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["runeterra"],
+        "regions": ["runeterra"],
         "species": ["Spirit"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Shen",
@@ -1341,9 +1341,9 @@
         "resource": "Energy",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["top", "support"]
+        "positions": ["top", "support"]
     },
     {
         "name": "Shyvana",
@@ -1352,9 +1352,9 @@
         "resource": "Fury",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Dragon", "Magically Altered"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Singed",
@@ -1363,9 +1363,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["zaun", "piltover"],
+        "regions": ["zaun", "piltover"],
         "species": ["Chemically Altered", "Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Sion",
@@ -1374,9 +1374,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Revenant"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Sivir",
@@ -1385,9 +1385,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Skarner",
@@ -1396,9 +1396,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Brackern"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Smolder",
@@ -1407,9 +1407,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2024,
-        "region": ["camavor", "noxus"],
+        "regions": ["camavor", "noxus"],
         "species": ["Dragon"],
-        "lane": ["bottom", "middle"]
+        "positions": ["bottom", "middle"]
     },
     {
         "name": "Sona",
@@ -1418,9 +1418,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["demacia", "ionia"],
+        "regions": ["demacia", "ionia"],
         "species": ["Human", "Magicborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Soraka",
@@ -1429,9 +1429,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["targon", "ionia"],
+        "regions": ["targon", "ionia"],
         "species": ["Celestial"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Swain",
@@ -1440,9 +1440,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2010,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Sylas",
@@ -1451,9 +1451,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2019,
-        "region": ["demacia", "freljord"],
+        "regions": ["demacia", "freljord"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Syndra",
@@ -1462,9 +1462,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Tahm Kench",
@@ -1473,9 +1473,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2015,
-        "region": ["bilgewater", "runeterra"],
+        "regions": ["bilgewater", "runeterra"],
         "species": ["Demon", "Spirit"],
-        "lane": ["top", "support"]
+        "positions": ["top", "support"]
     },
     {
         "name": "Taliyah",
@@ -1484,9 +1484,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2016,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["Human", "Magicborn"],
-        "lane": ["jungle", "middle"]
+        "positions": ["jungle", "middle"]
     },
     {
         "name": "Talon",
@@ -1495,9 +1495,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["noxus"],
+        "regions": ["noxus"],
         "species": ["Human"],
-        "lane": ["jungle", "middle"]
+        "positions": ["jungle", "middle"]
     },
     {
         "name": "Taric",
@@ -1506,9 +1506,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Aspect", "Human"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Teemo",
@@ -1517,9 +1517,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["bandle-city"],
+        "regions": ["bandle-city"],
         "species": ["Yordle"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Thresh",
@@ -1528,9 +1528,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2013,
-        "region": ["shadow-isles"],
+        "regions": ["shadow-isles"],
         "species": ["Undead"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Tristana",
@@ -1539,9 +1539,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["bandle-city"],
+        "regions": ["bandle-city"],
         "species": ["Yordle"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Trundle",
@@ -1550,9 +1550,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Iceborn", "Troll"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Tryndamere",
@@ -1561,9 +1561,9 @@
         "resource": "Fury",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Twisted Fate",
@@ -1572,9 +1572,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["bilgewater"],
+        "regions": ["bilgewater"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Twitch",
@@ -1583,9 +1583,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Chemically Altered", "Rat"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Udyr",
@@ -1594,9 +1594,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["freljord", "ionia"],
+        "regions": ["freljord", "ionia"],
         "species": ["Human", "Spiritualist"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Urgot",
@@ -1605,9 +1605,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["zaun", "noxus"],
+        "regions": ["zaun", "noxus"],
         "species": ["Chemically Altered", "Cyborg", "Human"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Varus",
@@ -1616,9 +1616,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["ionia", "shurima", "runeterra"],
+        "regions": ["ionia", "shurima", "runeterra"],
         "species": ["Darkin", "Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Vayne",
@@ -1627,9 +1627,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["demacia"],
+        "regions": ["demacia"],
         "species": ["Human"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Veigar",
@@ -1638,9 +1638,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["bandle-city", "runterra", "shadow-isles"],
+        "regions": ["bandle-city", "runterra", "shadow-isles"],
         "species": ["Yordle"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Vel'Koz",
@@ -1649,9 +1649,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2014,
-        "region": ["void"],
+        "regions": ["void"],
         "species": ["Void-being"],
-        "lane": ["middle", "support"]
+        "positions": ["middle", "support"]
     },
     {
         "name": "Vex",
@@ -1660,9 +1660,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2021,
-        "region": ["bandle-city", "shadow-isles"],
+        "regions": ["bandle-city", "shadow-isles"],
         "species": ["Yordle"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Vi",
@@ -1671,9 +1671,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["piltover", "zaun"],
+        "regions": ["piltover", "zaun"],
         "species": ["Human"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Viego",
@@ -1682,9 +1682,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2021,
-        "region": ["shadow-isles", "camavor"],
+        "regions": ["shadow-isles", "camavor"],
         "species": ["Undead"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Viktor",
@@ -1693,9 +1693,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["zaun", "piltover"],
+        "regions": ["zaun", "piltover"],
         "species": ["Human", "Cyborg"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Vladimir",
@@ -1704,9 +1704,9 @@
         "resource": "Bloodthrist",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["noxus", "camavor", "shadow-isles"],
+        "regions": ["noxus", "camavor", "shadow-isles"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle", "top"]
+        "positions": ["middle", "top"]
     },
     {
         "name": "Volibear",
@@ -1715,9 +1715,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["freljord"],
+        "regions": ["freljord"],
         "species": ["God", "Spirit"],
-        "lane": ["top", "jungle"]
+        "positions": ["top", "jungle"]
     },
     {
         "name": "Warwick",
@@ -1726,9 +1726,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2009,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Chemically Altered", "Cyborg", "Human"],
-        "lane": ["jungle", "top"]
+        "positions": ["jungle", "top"]
     },
     {
         "name": "Xayah",
@@ -1737,9 +1737,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2017,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Vastayan"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Xerath",
@@ -1748,9 +1748,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2011,
-        "region": ["shurima"],
+        "regions": ["shurima"],
         "species": ["God-Warrior"],
-        "lane": ["middle", "support"]
+        "positions": ["middle", "support"]
     },
     {
         "name": "Xin Zhao",
@@ -1759,9 +1759,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2010,
-        "region": ["demacia", "ionia", "noxus"],
+        "regions": ["demacia", "ionia", "noxus"],
         "species": ["Human"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Yasuo",
@@ -1770,9 +1770,9 @@
         "resource": "Flow",
         "range_type": ["melee"],
         "release": 2013,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Magicborn"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Yone",
@@ -1781,9 +1781,9 @@
         "resource": "Manaless",
         "range_type": ["melee"],
         "release": 2020,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["top", "middle"]
+        "positions": ["top", "middle"]
     },
     {
         "name": "Yorick",
@@ -1792,9 +1792,9 @@
         "resource": "Mana",
         "range_type": ["melee"],
         "release": 2011,
-        "region": ["shadow-isles"],
+        "regions": ["shadow-isles"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["top"]
+        "positions": ["top"]
     },
     {
         "name": "Yuumi",
@@ -1803,9 +1803,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2019,
-        "region": ["bandle-city"],
+        "regions": ["bandle-city"],
         "species": ["Cat", "Magically Altered"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Zac",
@@ -1814,9 +1814,9 @@
         "resource": "Health costs",
         "range_type": ["melee"],
         "release": 2013,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Golem"],
-        "lane": ["jungle"]
+        "positions": ["jungle"]
     },
     {
         "name": "Zed",
@@ -1825,9 +1825,9 @@
         "resource": "Energy",
         "range_type": ["melee"],
         "release": 2012,
-        "region": ["ionia"],
+        "regions": ["ionia"],
         "species": ["Human", "Magically Altered"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Zeri",
@@ -1836,9 +1836,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2022,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Human", "Magicborn"],
-        "lane": ["bottom"]
+        "positions": ["bottom"]
     },
     {
         "name": "Ziggs",
@@ -1847,9 +1847,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["zaun"],
+        "regions": ["zaun"],
         "species": ["Yordle"],
-        "lane": ["bottom", "middle"]
+        "positions": ["bottom", "middle"]
     },
     {
         "name": "Zilean",
@@ -1858,9 +1858,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2009,
-        "region": ["runeterra", "icathia", "shurima"],
+        "regions": ["runeterra", "icathia", "shurima"],
         "species": ["Human", "Magicborn"],
-        "lane": ["support"]
+        "positions": ["support"]
     },
     {
         "name": "Zoe",
@@ -1869,9 +1869,9 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2017,
-        "region": ["targon"],
+        "regions": ["targon"],
         "species": ["Human", "Aspect"],
-        "lane": ["middle"]
+        "positions": ["middle"]
     },
     {
         "name": "Zyra",
@@ -1880,8 +1880,8 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2012,
-        "region": ["ixtal"],
+        "regions": ["ixtal"],
         "species": ["Unknown"],
-        "lane": ["support"]
+        "positions": ["support"]
     }
 ]
