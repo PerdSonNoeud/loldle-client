@@ -84,6 +84,7 @@ class Loldle:
 
         # Add the result to the list
         self.guesses.insert(0, [icon, gender, species, positions, resource, range_type, regions, release])
+        return gender == species == positions == resource == range_type == regions == release == cons.good
 
     def __str__(self):
         result = ""

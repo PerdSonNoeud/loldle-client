@@ -9,7 +9,6 @@ def initChamp():
 def getChamp(name: str):
     for champ in Champion.champ_list:
         if name == champ["name"] or name == champ["alias"]:
-            print(champ)
             return Champion(champ)
     return None
 
@@ -29,8 +28,8 @@ class Champion:
         self.release = data["release"]
 
     def getUrl(self):
-        return cons.get_splash_url(data["alias"])
+        return cons.get_splash_url(self.alias)
 
     def getIcon(self):
-        return cons.get_icon_url(data["alias"])
+        return cons.get_icon_url(self.alias)
 

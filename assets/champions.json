@@ -1468,7 +1468,7 @@
     },
     {
         "name": "Tahm Kench",
-        "alias": "tahm kench",
+        "alias": "tahmkench",
         "gender": "male",
         "resource": "Mana",
         "range_type": ["melee"],
