@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 
 from cogLoldle import CogLoldle
+from cogLoldleClassic import CogLoldleClassic
 
 
 with open("./assets/token.txt", 'r') as file:
@@ -22,6 +23,7 @@ async def on_ready():
     try:
         # Add the cogs
         await client.add_cog(CogLoldle(client))
+        await client.add_cog(CogLoldleClassic(client))
         # Sync the commands
         synced = await client.tree.sync()
         print(f"Synced {len(synced)} commands")
