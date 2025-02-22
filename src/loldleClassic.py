@@ -1,7 +1,8 @@
 import random as rd
 
 import constants as cons
-from champions import Champion
+from champions import Champion, rdChamp
+from loldle import Loldle
 
 
 def compareOne(data1: str, data2: str):
@@ -15,23 +16,11 @@ def compareMultiple(data1: list[str], data2: list[str]):
 
     return cons.good if n == len(data1) == len(data2) else cons.partial if n > 0 else cons.wrong
 
-class LoldleClassic:
+class LoldleClassic(Loldle):
     def __init__(self):
-        self.champ = None
-        self.guesses = []
-
-    def start(self):
-        """
-        Function that start the classic mode of loldle.
-        It initialise the base value of the champion to guess (random between 
-        all of them) and reset the number of tries (clear the history of guesses).
-        """
-        champ_dict = rd.choice(Champion.champ_list)
-        print("Champion aléatoire:", champ_dict)
-        self.champ = Champion(champ_dict)
-        self.guesses = []
-
-    def guess(self, guess: Champion):
+        super().__init__()
+    
+    def guess(self, guess: Champion) -> bool:
         # Champion
         # TODO: return the champ icon
         icon = cons.random
@@ -58,14 +47,4 @@ class LoldleClassic:
         # Add the result to the list
         self.guesses.insert(0, [icon, gen, spe, pos, res, ran, reg, rel, guess.name])
         return gen == spe == pos == res == ran == reg == rel == cons.good
-
-    def __str__(self):
-        result = f"Nombre total d'essais : {len(self.guesses)}\n"
-        for i in range(len(self.guesses)):
-            if i >= 10:
-                return result
-            for info in self.guesses[i]:
-                result += info + " "
-            result += "\n"
-        return result
 

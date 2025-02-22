@@ -1,3 +1,5 @@
+import random as rd
+
 import constants as cons
 import parser
 
@@ -11,6 +13,10 @@ def getChamp(name: str):
         if name == champ["name"] or name == champ["alias"]:
             return Champion(champ)
     return None
+
+
+def rdChamp():
+    return rd.choice(Champion.champ_list)
 
 
 class Champion:
