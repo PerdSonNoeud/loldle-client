@@ -1308,7 +1308,7 @@
         "resource": "Mana",
         "range_type": ["ranged"],
         "release": 2020,
-        "regions": "piltover,zaun",
+        "regions": ["piltover", "zaun"],
         "species": ["Human", "Magicborn"],
         "positions": ["support"]
     },
