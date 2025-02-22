@@ -761,7 +761,7 @@
     },
     {
         "name": "Kog'Maw",
-        "alias": "kog'maw",
+        "alias": "kogmaw",
         "gender": "male",
         "resource": "Mana",
         "range_type": ["ranged"],

@@ -50,9 +50,6 @@ class CogLoldle(commands.Cog):
             eph = False
         await message.response.send_message(content=text, ephemeral=eph)
 
-    async def champ_names():
-        return list_n
-
     @app_commands.command(name="guess", description="Deviner un champion.")
     @app_commands.describe(name="Nom du champion à deviner.")
     async def guess(self, message: discord.Interaction, name: str):
@@ -80,11 +77,11 @@ class CogLoldle(commands.Cog):
                     desc = (
                         f"{last_guess[0]} `{champ.name}`\n"
                         f"{last_guess[1]} `{champ.gender}`\n"
-                        f"{last_guess[2]} `{", ".join(champ.species)}`\n"
-                        f"{last_guess[3]} `{", ".join(champ.positions)}`\n"
+                        f"{last_guess[2]} `{', '.join(champ.species)}`\n"
+                        f"{last_guess[3]} `{', '.join(champ.positions)}`\n"
                         f"{last_guess[4]} `{champ.resource}`\n"
-                        f"{last_guess[5]} `{", ".join(champ.range_type)}`\n"
-                        f"{last_guess[6]} `{", ".join(champ.regions)}`\n"
+                        f"{last_guess[5]} `{', '.join(champ.range_type)}`\n"
+                        f"{last_guess[6]} `{', '.join(champ.regions)}`\n"
                         f"{last_guess[7]} `{champ.release}`\n"
                     )
 

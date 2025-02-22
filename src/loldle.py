@@ -4,6 +4,17 @@ import constants as cons
 from champions import Champion
 
 
+def compareOne(data1: str, data2: str):
+    return cons.good if data1 == data2 else cons.wrong
+
+def compareMultiple(data1: list[str], data2: list[str]):
+    n = sum(p in data1 for p in data2)
+
+    if len(data1) == 1 and len(data2) == 1:
+            return cons.good if data1 == data2 else cons.wrong
+
+    return cons.good if n == len(data1) == len(data2) else cons.partial if n > 0 else cons.wrong
+
 class Loldle:
     def __init__(self):
         self.champ = None
@@ -19,72 +30,29 @@ class Loldle:
         # Champion
         # TODO: return the champ icon
         icon = cons.random
-
         # Gender
-        gender = cons.good if self.champ.gender == guess.gender else cons.wrong
-
-        # Position
-        n = 0
-        for pos in guess.positions:
-            if pos in self.champ.positions:
-                n += 1
-        if n == 0:
-            positions = cons.wrong
-        elif n < len(self.champ.positions):
-            positions = cons.partial
-        else:
-            positions = cons.good
-
+        gen = compareOne(self.champ.gender, guess.gender)
         # Species
-        n = 0
-        for spe in guess.species:
-            if spe in self.champ.species:
-                n += 1
-        if n == 0:
-            species = cons.wrong
-        elif n < len(self.champ.species):
-            species = cons.partial
-        else:
-            species = cons.good
-
+        spe = compareMultiple(self.champ.species, guess.species)
+        # Position
+        pos = compareMultiple(self.champ.positions, guess.positions)
         # Resources
-        resource = cons.good if self.champ.resource == guess.resource else cons.wrong
-
+        res = compareOne(self.champ.resource, guess.resource)
         # Range type
-        n = 0
-        for r_type in guess.range_type:
-            if r_type in self.champ.range_type:
-                n += 1
-        if n == 0:
-            range_type = cons.wrong
-        if n < len(self.champ.range_type):
-            range_type = cons.partial
-        else:
-            range_type = cons.good
-
+        ran = compareMultiple(self.champ.range_type, guess.range_type)
         # Regions
-        n = 0
-        for reg in guess.regions:
-            if reg in self.champ.regions:
-                n += 1
-        if n == 0:
-            regions = cons.wrong
-        elif n < len(self.champ.regions):
-            regions = cons.partial
-        else:
-            regions = cons.good
-
+        reg = compareMultiple(self.champ.regions, guess.regions)
         # Release Year
         if self.champ.release > guess.release:
-            release = cons.higher
+            rel = cons.higher
         elif self.champ.release < guess.release:
-            release = cons.lower
+            rel = cons.lower
         else:
-            release = cons.good
+            rel = cons.good
 
         # Add the result to the list
-        self.guesses.insert(0, [icon, gender, species, positions, resource, range_type, regions, release])
-        return gender == species == positions == resource == range_type == regions == release == cons.good
+        self.guesses.insert(0, [icon, gen, spe, pos, res, ran, reg, rel])
+        return gen == spe == pos == res == ran == reg == rel == cons.good
 
     def __str__(self):
         result = ""
