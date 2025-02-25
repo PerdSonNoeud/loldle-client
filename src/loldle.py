@@ -1,9 +1,9 @@
 import constants as cons
-from Champion import Champions, rdChamp
+from champions import Champion, rdChamp
 
 
 class Loldle:
-    def __init__():
+    def __init__(self):
         self.champ = None
         self.guesses = []
 
