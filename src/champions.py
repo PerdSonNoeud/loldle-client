@@ -34,29 +34,8 @@ class Champion:
         self.release = data["release"]
         self.skins = data["skins"]
 
-    def getUrl(self, skin: str = "Par défaut"):
-        skin_dir = ""
-        if skin == "Par défaut":
-            skin_dir = "base"
-            skin_id = 0
-        else:
-            for k, v in self.skins.items():
-                if skin == v:
-                    skin_dir = "skin"
-                    skin_id = int(k)
-                    if v < 10:
-                        skin_dir += "0" + v
-                    else:
-                        skin_dir += v
-                    break
-
-        if skin_dir == "":
-            return (
-                "https://salonlfc.com/wp-content/uploads/2018/01/"
-                + "image-not-found-1-scaled-1150x647.png"
-            )
-
-        return cons.get_splash_url(self.alias, skin_dir, skin_id)
+    def getUrl(self, num: int = str):
+        return cons.get_splash_url(self.alias, 0)
 
     def getIcon(self):
         return cons.get_icon_url(self.alias)

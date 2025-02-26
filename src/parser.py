@@ -41,7 +41,13 @@ def getSkinId(name: str = "Aurelion Sol") -> dict[int:str]:
     # Gether link and info about the skins for each champion
     result = {}
     for v in c_data.values():
-        if v["name"] == name:
+        tmp = (
+            v["name"].replace("é", "e").replace(" et ", " & ")
+            .replace("Maître", "Master")
+        )
+        if tmp.startswith("Maitre"):
+            print(tmp)
+        if tmp == name:
             for skin in v["skins"]:
                 if skin["name"] == "default":
                     result[skin["num"]] = "Par défaut"

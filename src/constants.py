@@ -17,7 +17,7 @@ url_start = (
 
 
 def get_splash_url(name: str = "aurelionsol",
-                   skin_id: str = "base", num: int = 0):
+                   num: int = 0):
     """
     Function that returns an url link to the splash art.
     :param name: name of the champion we're looking for
@@ -25,10 +25,26 @@ def get_splash_url(name: str = "aurelionsol",
 
     :return: the url of the splash art
     """
+    skin_dir = ""
+    if num == 0:
+        skin_dir = "base"
+    else:
+        skin_dir = "skin"
+        if num < 10:
+            skin_dir += "0" + str(num)
+        else:
+            skin_dir += str(num)
+
+    if skin_dir == "":
+        return (
+            "https://salonlfc.com/wp-content/uploads/2018/01/"
+            + "image-not-found-1-scaled-1150x647.png"
+        )
+
     additional = ".mel" if name == "mel" else ""
     return (
         url_start +
-        f"assets/characters/{name}/skins/{skin_id}/" +
+        f"assets/characters/{name}/skins/{skin_dir}/" +
         f"images/{name}_splash_uncentered_{num}{additional}.jpg"
     )
 

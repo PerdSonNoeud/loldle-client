@@ -42,19 +42,19 @@ class CogLoldle(commands.Cog):
     # Autocompletion for skin
     async def autocomplete_skin(self, message: discord.Interaction,
                                 current: str):
+        champ_list = champions.Champion.champ_list
         champ = [
-            ch["alias"] for ch in champions.Champion.champ_list
+            ch["alias"] for ch in champ_list
         ]
 
         champion = message.namespace.champion
 
         if champion in champ:
             i = champ.index(champion)
-            skins = []
-            print(champions.Champion.champ_list[i])
-            for skin in champions.Champion.champ_list[i]["skins"]:
-                skins.append(skin)
-                print(skin)
+            skins = [
+                (n, i)
+                for i, n in champ_list[i]["skins"].items()
+            ]
             # Not searching
             if not current:
                 return [

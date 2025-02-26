@@ -21,7 +21,7 @@ class CogLoldleOther(CogLoldle):
         skin=CogLoldle.autocomplete_skin
     )
     async def splash(self, message: discord.Interaction,
-                     champion: str, skin: str = "Par défaut"):
+                     champion: str, skin: int = 0):
         """
         Function that search the splash art of the champ we're looking for.
 
@@ -32,6 +32,6 @@ class CogLoldleOther(CogLoldle):
             title=f"{champion}", description="Work in progress",
             color=cons.emb_color
         )
-        emb.set_image(url=cons.get_splash_url(champion))
+        emb.set_image(url=cons.get_splash_url(champion, skin))
 
         await message.response.send_message(embed=emb, ephemeral=False)
