@@ -1,4 +1,3 @@
-import constants as cons
 from champions import Champion, rdChamp
 
 
@@ -11,8 +10,9 @@ class Loldle:
         """
         Function that start loldle.
 
-        It initialise the base value of the champion to guess (random between 
-        all of them) and reset the number of tries (clear the history of guesses).
+        It initialise the base value of the champion to guess (random between
+        all of them) and reset the number of tries (clear the history of
+        guesses).
         """
         champ_dict = rdChamp()
         print("Champion aléatoire:", champ_dict["name"])
@@ -28,4 +28,3 @@ class Loldle:
                 result += info + " "
             result += "\n"
         return result
-

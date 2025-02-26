@@ -1,19 +1,22 @@
 import discord
 from discord import app_commands
-from discord.ext import commands
 
 import champions
 import constants as cons
 from loldleClassic import LoldleClassic
 
+from cogLoldle import CogLoldle
 
-class CogLoldleClassic(commands.Cog):
+
+class CogLoldleClassic(CogLoldle):
     def __init__(self, client):
-        self.client = client
+        super().__init__(client)
         self.classic = LoldleClassic()
         self.isPlaying = False
 
-    @app_commands.command(name="start-c", description="Commence le mode classique de Loldle.")
+    @app_commands.command(
+        name="start-c", description="Commence le mode classique de Loldle."
+    )
     async def startC(self, message: discord.Interaction):
         """
         Function that start a new game.
@@ -30,26 +33,12 @@ class CogLoldleClassic(commands.Cog):
             eph = False
         await message.response.send_message(content=text, ephemeral=eph)
 
-    
-    # Autocompletion for guess command
-    async def autocomplete(self, message: discord.Interaction, current: str):
-        champ = [(ch["name"], ch["alias"]) for ch in champions.Champion.champ_list]
-
-        # Not searching
-        if not current:
-            return [discord.app_commands.Choice(name=ch[0], value=ch[1]) for ch in champ[:25]]
-        
-        # Sorting priority: starts with > contains
-        starts_with = [ch for ch in champ if ch[0].lower().startswith(current.lower())]
-        contains = [ch for ch in champ if current.lower() in ch[0].lower() and ch not in starts_with]
-        
-        results = starts_with + contains  # Merge lists with priority
-        return [discord.app_commands.Choice(name=ch[0], value=ch[1]) for ch in results[:25]]
-
-
-    @app_commands.command(name="guess-c", description="Deviner un champion pour le mode classique.")
+    @app_commands.command(
+        name="guess-c",
+        description="Deviner un champion pour le mode classique."
+    )
     @app_commands.describe(name="Nom du champion à deviner.")
-    @app_commands.autocomplete(name=autocomplete)
+    @app_commands.autocomplete(name=CogLoldle.autocomplete)
     async def guessC(self, message: discord.Interaction, name: str):
         """
         Function that try the champion the users has guessed.
@@ -92,13 +81,18 @@ class CogLoldleClassic(commands.Cog):
                     emb = discord.Embed(
                         title=f"Trouvé, c'était `{name}` !",
                         description=self.classic,
-                        color=cons.emb_color
+                        color=cons.emb_color,
                     )
                     emb.set_image(url=self.classic.champ.getUrl())
                     self.isPlaying = False
 
         else:
-            text = "Aucune partie n'est en cours. Lancez une partie avec `/startC`."
+            text = (
+                "Aucune partie n'est en cours."
+                + "Lancez une partie avec `/startC`."
+            )
             eph = True
 
-        await message.response.send_message(embed=emb, content=text, ephemeral=eph)
+        await message.response.send_message(
+            embed=emb, content=text, ephemeral=eph
+        )

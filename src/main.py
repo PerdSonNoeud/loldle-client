@@ -1,18 +1,17 @@
 import discord
 from discord.ext import commands
 
-from cogLoldle import CogLoldle
+from cogLoldleOther import CogLoldleOther
 from cogLoldleClassic import CogLoldleClassic
 
-
-with open("./assets/token.txt", 'r') as file:
+with open("./assets/token.txt", "r") as file:
     token = file.read()
 
 
 intents = discord.Intents.default()
 intents.message_content = True
 
-client = commands.Bot(command_prefix='/', intents=intents, help_command=None)
+client = commands.Bot(command_prefix="/", intents=intents, help_command=None)
 
 
 @client.event
@@ -22,7 +21,7 @@ async def on_ready():
 
     try:
         # Add the cogs
-        await client.add_cog(CogLoldle(client))
+        await client.add_cog(CogLoldleOther(client))
         await client.add_cog(CogLoldleClassic(client))
         # Sync the commands
         synced = await client.tree.sync()
@@ -32,4 +31,3 @@ async def on_ready():
 
 
 client.run(token)
-
