@@ -557,7 +557,7 @@
     },
     {
         "name": "Jarvan IV",
-        "alias": "jarvan iv",
+        "alias": "jarvaniv",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Melee"],
