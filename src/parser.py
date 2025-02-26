@@ -17,13 +17,16 @@ def importData(pathfile: str = "assets/champions.json"):
     print("Importing skins...")
     for i in range(len(result)):
         result[i]["skins"] = getSkinId(result[i]["name"])
-        print(result[i]["name"], len(result[i]["skins"]))
+        # print(result[i]["name"], len(result[i]["skins"]))
     return result
 
 
 def getSkinId(name: str = "Aurelion Sol") -> dict[int:str]:
     """
     Function that import data about skin.
+    :param name: name of the champion
+
+    :return: a dictionary with all the skins of the champion
     """
     # Get the last version of league of legends
     version_request = "https://ddragon.leagueoflegends.com/api/versions.json"
@@ -42,11 +45,11 @@ def getSkinId(name: str = "Aurelion Sol") -> dict[int:str]:
     result = {}
     for v in c_data.values():
         tmp = (
-            v["name"].replace("é", "e").replace(" et ", " & ")
+            v["name"]
+            .replace("é", "e")
+            .replace(" et ", " & ")
             .replace("Maître", "Master")
         )
-        if tmp.startswith("Maitre"):
-            print(tmp)
         if tmp == name:
             for skin in v["skins"]:
                 if skin["name"] == "default":
