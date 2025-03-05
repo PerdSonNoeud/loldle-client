@@ -728,7 +728,7 @@
     },
     {
         "name": "Kha'Zix",
-        "alias": "kha'zix",
+        "alias": "khazix",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Melee"],
@@ -1644,7 +1644,7 @@
     },
     {
         "name": "Vel'Koz",
-        "alias": "vel'koz",
+        "alias": "velkoz",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Ranged"],
