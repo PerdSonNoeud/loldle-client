@@ -6,3 +6,4 @@ assets/token.txt
 src/__pycache__/
 src/parsers/
 
+pyproject.toml

@@ -3,9 +3,8 @@ from discord import app_commands
 
 import champions
 import constants as cons
-from loldleClassic import LoldleClassic
-
 from cogLoldle import CogLoldle
+from loldleClassic import LoldleClassic
 
 
 class CogLoldleClassic(CogLoldle):
@@ -14,29 +13,25 @@ class CogLoldleClassic(CogLoldle):
         self.classic = LoldleClassic()
         self.isPlaying = False
 
-    @app_commands.command(
-        name="start-c", description="Commence le mode classique de Loldle."
-    )
+    @app_commands.command(name="start-c", description="Commence le mode classique de Loldle.")
     async def startC(self, message: discord.Interaction):
         """
         Function that start a new game.
 
         :param message: Command of the user
         """
-        if self.isPlaying:
-            text = "Une partie est encore en cours !"
-            eph = True
-        else:
+        text = "Une partie est encore en cours !"
+        eph = True
+
+        if not self.isPlaying:
             self.isPlaying = True
             self.classic.start()
             text = "Nouvelle partie commencée !"
             eph = False
+
         await message.response.send_message(content=text, ephemeral=eph)
 
-    @app_commands.command(
-        name="guess-c",
-        description="Deviner un champion pour le mode classique."
-    )
+    @app_commands.command(name="guess-c", description="Deviner un champion pour le mode classique.")
     @app_commands.describe(name="Nom du champion à deviner.")
     @app_commands.autocomplete(name=CogLoldle.autocomplete)
     async def guessC(self, message: discord.Interaction, name: str):
@@ -87,12 +82,7 @@ class CogLoldleClassic(CogLoldle):
                     self.isPlaying = False
 
         else:
-            text = (
-                "Aucune partie n'est en cours."
-                + "Lancez une partie avec `/startC`."
-            )
+            text = "Aucune partie n'est en cours. Lancez une partie avec `/start-c`."
             eph = True
 
-        await message.response.send_message(
-            embed=emb, content=text, ephemeral=eph
-        )
+        await message.response.send_message(embed=emb, content=text, ephemeral=eph)

@@ -1,0 +1,138 @@
+[
+    {
+        "name": "",
+        "p": "",
+        "q": "",
+        "w": "",
+        "e": "",
+        "r": ""
+    },
+    {
+        "name": "aphelios",
+        "p": "apheliosp",
+        "q": "apheliosq",
+        "w": "apheliosw",
+        "e": "calibrium_l",
+        "r": "apheliosr"
+    },
+    {
+        "name": "chogath",
+        "p": "greenterror_tailspike",
+        "q": "greenterror_chitinousexoplates",
+        "w": "greenterror_feralscream",
+        "e": "greenterror_spikeslam",
+        "r": "greenterror_feast"
+    },
+    {
+        "name": "corki",
+        "p": "corki_phosphorusbomb",
+        "q": "corki_rapidreload",
+        "w": "corki_valkyrie",
+        "e": "corki_gatlinggun",
+        "r": "corki_missilebarrage"
+    },
+    {
+        "name": "elise",
+        "p": "elisepassive",
+        "q": "elisehumanq",
+        "w": "elisehumanw",
+        "e": "elisehumane",
+        "r": "eliser"
+    },
+    {
+        "name": "gragas",
+        "p": "gragaspassiveheal",
+        "q": "gragasbarrelroll",
+        "w": "gragasdrunkenrage",
+        "e": "gragasbodyslam",
+        "r": "gragasexplosiveheal"
+    },
+    {
+        "name": "hecarim",
+        "p": "hecarim_passive",
+        "q": "hecarim_rampage",
+        "w": "hecarim_spiritofdread",
+        "e": "hecarim_devastingcharge",
+        "r": "hecarim_onslaughtofshadows"
+    },
+    {
+        "name": "kogmaw",
+        "p": "kogmaw_icathiansurprise",
+        "q": "kogmaw_causticspittle",
+        "w": "kogmaw_bioarcanebarrage",
+        "e": "kogmaw_voidooze",
+        "r": "kogmaw_livingartillery"
+    },
+    {
+        "name": "lulu",
+        "p": "lulu_pixfaerycompanion",
+        "q": "lulu_glitterbolt",
+        "w": "lulu_whimsy",
+        "e": "lulu_commandpix",
+        "r": "lulu_giantgrowth"
+    },
+    {
+        "name": "monkeyking",
+        "p": "monkeykingstoneskin",
+        "q": "monkeykingcrushingblow",
+        "w": "monkeykingdecoy",
+        "e": "monkeykingnimbusstrike",
+        "r": "monkeykingcyclone"
+    },
+    {
+        "name": "nautilus",
+        "p": "nautilus_staggeringblow",
+        "q": "nautilus_anchorchain",
+        "w": "nautilus_wrath",
+        "e": "nautilus_rippleeffect",
+        "r": "nautilus_grandline"
+    },
+    {
+        "name": "nocturne",
+        "p": "nocturne_umbrablade",
+        "q": "nocturne_duskbringer",
+        "w": "nocturne_shroudofdarkness",
+        "e": "nocturne_unspeakablehorror",
+        "r": "nocturne_paranoia"
+    },
+    {
+        "name": "shaco",
+        "p": "jester_carefulstrike",
+        "q": "jester_maniacalcloak",
+        "w": "jester_deathward",
+        "e": "jester_incrediblyprecise",
+        "r": "jester_halucinogenbomb"
+    },
+    {
+        "name": "shyvana",
+        "p": "shyvanareinforcedscales",
+        "q": "shyvanatwinbite",
+        "w": "shyvanascorchedearth",
+        "e": "shyvanaflamebreath",
+        "r": "shyvanadragonsdescent"
+    },
+    {
+        "name": "rammus",
+        "p": "armordillo_scavengearmor",
+        "q": "armordillo_powerball",
+        "w": "armordillo_shellbash",
+        "e": "armordillo_scaledplating",
+        "r": "armordillo_recklesscharge"
+    },
+    {
+        "name": "riven",
+        "p": "rivenrunicblade",
+        "q": "rivenbrokenwings",
+        "w": "rivenkishout",
+        "e": "rivenpathoftheexile",
+        "r": "rivenbladeoftheexile"
+    },
+    {
+        "name": "volibear",
+        "p": "volibear_icon_p",
+        "q": "volibear_icon_q",
+        "w": "volibear_icon_w",
+        "e": "volibear_icon_e",
+        "r": "volibear_icon_r"
+    }
+]

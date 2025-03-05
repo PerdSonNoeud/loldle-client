@@ -1,7 +1,6 @@
-import parser
 import random as rd
 
-import constants as cons
+import parser
 
 
 def initChamp():
@@ -21,6 +20,7 @@ def rdChamp():
 
 class Champion:
     champ_list = initChamp()
+    icon_fix = parser.importFix()
 
     def __init__(self, data: dict):
         self.name = data["name"]
@@ -35,7 +35,12 @@ class Champion:
         self.skins = data["skins"]
 
     def getUrl(self, num: int = str):
-        return cons.get_splash_url(self.alias, 0)
+        return parser.get_splash_url(self.alias, 0)
 
-    def getIcon(self):
-        return cons.get_icon_url(self.alias)
+    def getIcon(self, ability: str = "base"):
+        fix = {}
+        for data in Champion.icon_fix:
+            if data["name"] == self.name:
+                fix = data
+                break
+        return parser.get_icon_url(self.alias, ability, fix)

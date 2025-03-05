@@ -25,7 +25,6 @@ class LoldleClassic(Loldle):
 
     def guess(self, guess: Champion) -> bool:
         # Champion
-        # TODO: return the champ icon
         icon = cons.random
         # Gender
         gen = compareOne(self.champ.gender, guess.gender)
@@ -48,6 +47,5 @@ class LoldleClassic(Loldle):
             rel = cons.good
 
         # Add the result to the list
-        self.guesses.insert(0, [icon, gen, spe, pos, res, ran, reg, rel,
-                                guess.name])
+        self.guesses.insert(0, [icon, gen, spe, pos, res, ran, reg, rel, guess.name])
         return gen == spe == pos == res == ran == reg == rel == cons.good

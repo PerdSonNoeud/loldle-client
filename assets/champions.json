@@ -783,7 +783,7 @@
     },
     {
         "name": "Lee Sin",
-        "alias": "lee sin",
+        "alias": "leesin",
         "gender": "Male",
         "resource": "Energy",
         "range_type": ["Melee"],
@@ -893,7 +893,7 @@
     },
     {
         "name": "Master Yi",
-        "alias": "master yi",
+        "alias": "masteryi",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Melee"],
@@ -937,7 +937,7 @@
     },
     {
         "name": "Wukong",
-        "alias": "wukong",
+        "alias": "monkeyking",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Melee"],
@@ -1061,7 +1061,7 @@
     },
     {
         "name": "Nunu & Willump",
-        "alias": "nunu & willump",
+        "alias": "nunu",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Melee"],
@@ -1567,7 +1567,7 @@
     },
     {
         "name": "Twisted Fate",
-        "alias": "twisted fate",
+        "alias": "twistedfate",
         "gender": "Male",
         "resource": "Mana",
         "range_type": ["Ranged"],
