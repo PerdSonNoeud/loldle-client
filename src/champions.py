@@ -1,6 +1,5 @@
-import random as rd
-
 import parser
+import random as rd
 
 
 def initChamp():
@@ -33,11 +32,12 @@ class Champion:
         self.regions = data["regions"]
         self.release = data["release"]
         self.skins = data["skins"]
+        self.abilities = data["abilities"]
 
     def getUrl(self, num: int = str):
         return parser.get_splash_url(self.alias, 0)
 
-    def getIcon(self, ability: str = "base"):
+    def get_icon_url(self, ability: str = "base"):
         fix = {}
         for data in Champion.icon_fix:
             if data["name"] == self.name:

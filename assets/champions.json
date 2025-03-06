@@ -614,17 +614,6 @@
         "positions": ["Bottom"]
     },
     {
-        "name": "K'Sante",
-        "alias": "ksante",
-        "gender": "Male",
-        "resource": "Mana",
-        "range_type": ["Melee"],
-        "release": 2022,
-        "regions": ["Shurima"],
-        "species": ["Human"],
-        "positions": ["Top"]
-    },
-    {
         "name": "Kai'Sa",
         "alias": "kaisa",
         "gender": "Female",
@@ -770,6 +759,17 @@
         "species": ["Void-being"],
         "positions": ["Bottom"]
     },   
+    {
+        "name": "K'Sante",
+        "alias": "ksante",
+        "gender": "Male",
+        "resource": "Mana",
+        "range_type": ["Melee"],
+        "release": 2022,
+        "regions": ["Shurima"],
+        "species": ["Human"],
+        "positions": ["Top"]
+    },
     {
         "name": "LeBlanc",
         "alias": "leblanc",

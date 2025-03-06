@@ -1,17 +1,31 @@
 import json
 import sys
+from io import BytesIO
 
 import requests
+from PIL import Image
 
 
 def loading_bar(iteration, total, length=30):
+    """
+    function that create loading bar in the console.
+    Might need it later
+    """
     percent = iteration / total
     bar = "━" * int(length * percent) + "-" * (length - int(length * percent))
     sys.stdout.write(f"\r[{bar}] {percent * 100:.1f}%")
     sys.stdout.flush()
 
 
-def importData(pathfile: str = "assets/champions.json"):
+def get_version() -> str:
+    """
+    Function that get the last version of league of legends.
+    """
+    version_request = "https://ddragon.leagueoflegends.com/api/versions.json"
+    return requests.get(version_request).json()[0]
+
+
+def importData(pathfile: str = "assets/champions.json") -> list[dict]:
     """
     Function that gets the data from the json file given in argument.
 
@@ -19,15 +33,32 @@ def importData(pathfile: str = "assets/champions.json"):
     :return: List of dict of the champion
     """
     result = []
+    print("Get champions data...")
     with open(pathfile) as file:
         result = json.load(file)
 
-    print("Importing skins...")
-    t_steps = len(result) - 1
-    for i in range(t_steps + 1):
-        result[i]["skins"] = getSkinId(result[i]["name"])
-        loading_bar(i, t_steps)
-    print()
+    # Get a json version of the data of the champions
+    link_requests = f"https://ddragon.leagueoflegends.com/cdn/{get_version()}/data/fr_FR/championFull.json"
+    c_data = requests.get(link_requests).json()["data"]
+
+    print("Importing skins and abilities...")
+    # Link data to champ
+    data = list(c_data.values())
+
+    abilities = ["q", "w", "e", "r"]
+
+    for i in range(len(data)):
+        # Get skin's name
+        for skin in data[i]["skins"]:
+            if skin["name"] == "default":
+                skin["name"] = "Par défaut"
+                break
+        result[i]["skins"] = data[i]["skins"]
+        # Get abilities name
+        result[i]["abilities"] = {"p": data[i]["passive"]["name"]}
+        tmp = list(data[i]["spells"])
+        for j in range(len(tmp)):
+            result[i]["abilities"][abilities[j]] = tmp[j]["name"].split("/")[0]
     return result
 
 
@@ -39,39 +70,9 @@ def importFix(pathfile: str = "assets/fixAbility.json"):
     :return: List of dict of the fixes
     """
     result = []
-    print("Fix ability name...")
+    print("Fix abilities image name...")
     with open(pathfile) as file:
         result = json.load(file)
-
-    return result
-
-
-def getSkinId(name: str = "Aurelion Sol") -> dict[int:str]:
-    """
-    Function that import data about skin.
-    :param name: name of the champion
-
-    :return: a dictionary with all the skins of the champion
-    """
-    # Get the last version of league of legends
-    version_request = "https://ddragon.leagueoflegends.com/api/versions.json"
-    version = requests.get(version_request).json()[0]
-
-    # Get a json version of the data of the champions
-    link_requests = "https://ddragon.leagueoflegends.com/cdn/" + version + "/data/fr_FR/championFull.json"
-
-    c_data = requests.get(link_requests).json()["data"]
-
-    # Gether link and info about the skins for each champion
-    result = {}
-    for v in c_data.values():
-        tmp = v["name"].replace("é", "e").replace(" et ", " & ").replace("Maître", "Master")
-        if tmp == name:
-            for skin in v["skins"]:
-                if skin["name"] == "default":
-                    result[skin["num"]] = "Par défaut"
-                else:
-                    result[skin["num"]] = skin["name"]
 
     return result
 
@@ -99,7 +100,7 @@ def get_splash_url(name: str = "aurelionsol", num: int = 0):
             skin_dir += str(num)
 
     if skin_dir == "":
-        return "https://salonlfc.com/wp-content/uploads/2018/01/" + "image-not-found-1-scaled-1150x647.png"
+        return "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
 
     additional = ".mel" if name == "mel" else ""
     return (
@@ -127,5 +128,22 @@ def get_icon_url(name: str = "aurelionsol", icon: str = "base", fixes={}):
     json = f"{json_start}assets/characters/{name}/{icon_dir}/"
     data = requests.get(json).json()
     for i in range(len(data)):
-        if f"{name}_{icon}" in data[i]["name"] or f"{name}{icon}" in data[i]["name"]:
-            return f"{url_start}assets/characters/{name}/{icon_dir}/{data[i]["name"]}"
+        if (
+            f"{name}_{icon}" in data[i]["name"]
+            or f"{name}{icon}" in data[i]["name"]
+            or f"{name}_icon_{icon}" in data[i]["name"]
+        ):
+            return f"{url_start}assets/characters/{name}/{icon_dir}/{data[i]['name']}"
+
+
+def icon_filter(url: str, rotation: int = 0, flip: bool = False):
+    response = requests.get(url)
+    if response.status_code != 200:
+        return url
+
+    image = Image.open(BytesIO(response.content))
+    image = image.convert("L")
+    if flip:
+        image = image.transpose(Image.FLIP_LEFT_RIGHT)
+    image = image.rotate(90 * rotation)
+    return image

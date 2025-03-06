@@ -32,6 +32,14 @@
         "r": "corki_missilebarrage"
     },
     {
+        "name": "darius",
+        "p": "darius_icon_hemorrhage",
+        "q": "darius_icon_decimate",
+        "w": "darius_icon_hamstring",
+        "e": "darius_icon_axe_grab",
+        "r": "darius_icon_sudden_death"
+    },
+    {
         "name": "elise",
         "p": "elisepassive",
         "q": "elisehumanq",
@@ -97,11 +105,11 @@
     },
     {
         "name": "shaco",
-        "p": "jester_carefulstrike",
-        "q": "jester_maniacalcloak",
+        "p": "jester_carefulstrikes",
+        "q": "jester_maniacalcloak2",
         "w": "jester_deathward",
         "e": "jester_incrediblyprecise",
-        "r": "jester_halucinogenbomb"
+        "r": "jester_hallucinogenbomb"
     },
     {
         "name": "shyvana",
@@ -126,13 +134,5 @@
         "w": "rivenkishout",
         "e": "rivenpathoftheexile",
         "r": "rivenbladeoftheexile"
-    },
-    {
-        "name": "volibear",
-        "p": "volibear_icon_p",
-        "q": "volibear_icon_q",
-        "w": "volibear_icon_w",
-        "e": "volibear_icon_e",
-        "r": "volibear_icon_r"
     }
 ]

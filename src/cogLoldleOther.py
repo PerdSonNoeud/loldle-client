@@ -1,8 +1,9 @@
+import parser
+
 import discord
 from discord import app_commands
 
 import constants as cons
-import parser
 from cogLoldle import CogLoldle
 
 

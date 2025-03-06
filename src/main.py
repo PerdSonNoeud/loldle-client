@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
 
-from cogLoldleOther import CogLoldleOther
-from cogLoldleClassic import CogLoldleClassic
 from cogLoldleAbility import CogLoldleAbility
+from cogLoldleClassic import CogLoldleClassic
+from cogLoldleOther import CogLoldleOther
 
 with open("./assets/token.txt", "r") as file:
     token = file.read()
