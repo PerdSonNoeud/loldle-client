@@ -5,7 +5,7 @@ from cogLoldleAbility import CogLoldleAbility
 from cogLoldleClassic import CogLoldleClassic
 from cogLoldleOther import CogLoldleOther
 
-with open("./assets/token.txt", "r") as file:
+with open("./assets/TOKEN.txt", "r") as file:
     token = file.read()
 
 
