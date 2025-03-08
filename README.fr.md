@@ -38,7 +38,7 @@ python3 ./src/main.py
 ```
 
 
-## Commands
+## Commandes
 ### /start-c
 Cette commande démarre une partie en mode Classique, l'objectif est de retrouver le champions à partir de ses informations.
 ![start-c](assets/images/start-c.webp)
