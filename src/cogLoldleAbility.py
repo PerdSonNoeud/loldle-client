@@ -82,6 +82,7 @@ class CogLoldleAbility(CogLoldle):
                         description=f"{last_guess[0]} {last_guess[1]}",
                         color=cons.emb_color,
                     )
+                    icon = self.ability.get_icon(self.filter)
                 else:
                     emb = discord.Embed(
                         title=f"Trouvé, c'était `{name}` !",
@@ -91,7 +92,8 @@ class CogLoldleAbility(CogLoldle):
                     emb.add_field(name="", value=f"{self.ability}")
                     view = AbilityView(self.ability)
                     self.isPlaying = False
-                icon = self.ability.get_icon(self.filter)
+                    icon = self.ability.get_icon(False)
+
                 if type(icon) is str:
                     emb.set_thumbnail(url=icon)
                 else:
@@ -101,6 +103,7 @@ class CogLoldleAbility(CogLoldle):
                     file = discord.File(buffer, filename="ability.png")
                     emb.set_thumbnail(url="attachment://ability.png")
                     await message.response.send_message(embed=emb, file=file, ephemeral=eph)
+                    return
 
         else:
             text = "Aucune partie n'est en cours. Lancez une partie avec `/start-a`."

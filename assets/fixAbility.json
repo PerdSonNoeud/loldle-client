@@ -134,5 +134,13 @@
         "w": "rivenkishout",
         "e": "rivenpathoftheexile",
         "r": "rivenbladeoftheexile"
+    },
+    {
+        "name": "zeri",
+        "p": "zeriqpassivecharged",
+        "q": "zeriq",
+        "w": "zeriw",
+        "e": "zerie",
+        "r": "zerir"
     }
 ]

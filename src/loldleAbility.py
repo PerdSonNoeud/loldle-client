@@ -16,10 +16,12 @@ class LoldleAbility(Loldle):
         self.flip = False
 
     def start(self) -> None:
+        print("Mode Compétence:")
         super().start()
         self.ability = rd.choice(["p", "q", "w", "e", "r"])
-        print(self.champ.abilities)
         self.name = self.champ.abilities[self.ability]
+        print(f"\t{self.ability}: {self.name}")
+
         self.rotation = rd.randint(1, 3)
         self.flip = rd.choice([True, False])
 

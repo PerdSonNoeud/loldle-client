@@ -15,7 +15,7 @@ class Loldle:
         guesses).
         """
         champ_dict = rdChamp()
-        print("Champion aléatoire:", champ_dict["name"])
+        print("\tChampion aléatoire:", champ_dict["name"])
         self.champ = Champion(champ_dict)
         self.guesses = []
 

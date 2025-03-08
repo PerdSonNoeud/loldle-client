@@ -122,7 +122,7 @@ def get_icon_url(name: str = "aurelionsol", icon: str = "base", fixes={}):
         return url_start + f"assets/characters/{name}/{icon_dir}/{name}_splash_tile_0.jpg"
 
     if fixes != {}:
-        return f"{url_start}assets/characters/{name}/{icon_dir}/{fixes[icon]}"
+        return f"{url_start}assets/characters/{name}/{icon_dir}/{fixes[icon]}.png"
 
     # Get the complete name of the files
     json = f"{json_start}assets/characters/{name}/{icon_dir}/"

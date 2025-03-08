@@ -15,6 +15,7 @@ def getChamp(name: str):
 
 def rdChamp():
     return rd.choice(Champion.champ_list)
+    # return Champion.champ_list[-5]
 
 
 class Champion:
@@ -40,7 +41,7 @@ class Champion:
     def get_icon_url(self, ability: str = "base"):
         fix = {}
         for data in Champion.icon_fix:
-            if data["name"] == self.name:
+            if data["name"] == self.alias:
                 fix = data
                 break
         return parser.get_icon_url(self.alias, ability, fix)

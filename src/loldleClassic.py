@@ -23,6 +23,10 @@ class LoldleClassic(Loldle):
     def __init__(self):
         super().__init__()
 
+    def start(self):
+        print("Mode Classique:")
+        super().start()
+
     def guess(self, guess: Champion) -> bool:
         # Champion
         icon = cons.random
