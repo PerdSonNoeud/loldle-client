@@ -91,7 +91,16 @@ class CogLoldleAbility(CogLoldle):
                     emb.add_field(name="", value=f"{self.ability}")
                     view = AbilityView(self.ability)
                     self.isPlaying = False
-                emb.set_thumbnail(url=self.ability.get_icon())
+                icon = self.ability.get_icon(self.filter)
+                if type(icon) is str:
+                    emb.set_thumbnail(url=icon)
+                else:
+                    buffer = BytesIO()
+                    icon.save(buffer, format="PNG")
+                    buffer.seek(0)
+                    file = discord.File(buffer, filename="ability.png")
+                    emb.set_thumbnail(url="attachment://ability.png")
+                    await message.response.send_message(embed=emb, file=file, ephemeral=eph)
 
         else:
             text = "Aucune partie n'est en cours. Lancez une partie avec `/start-a`."

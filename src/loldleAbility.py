@@ -20,7 +20,7 @@ class LoldleAbility(Loldle):
         self.ability = rd.choice(["p", "q", "w", "e", "r"])
         print(self.champ.abilities)
         self.name = self.champ.abilities[self.ability]
-        self.rotation = rd.randint(0, 3)
+        self.rotation = rd.randint(1, 3)
         self.flip = rd.choice([True, False])
 
     def guess(self, champ: Champion):
