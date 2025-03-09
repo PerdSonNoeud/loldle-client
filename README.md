@@ -40,18 +40,18 @@ python3 ./src/main.py
 
 ## Commands
 ### /start-c
-This command starts a game in the Classic mode, where you guess the champion based of the information about him.
+This command starts a game in the Classic mode, where you guess the champion based of the information about him. \
 ![start-c](assets/images/start-c.webp)
 
 ### /guess-c
-This command allows you guess a champion and gives you information about how close you are to the right champion.
+This command allows you guess a champion and gives you information about how close you are to the right champion. \
 ![guess-c](assets/images/guess-c.webp)
 
 ### /start-a
-This command starts a game in the Ability mode, where you guess the champion that has this ability.
+This command starts a game in the Ability mode, where you guess the champion that has this ability. \
 ![start-a](assets/images/start-a.webp)
 
 ### /guess-a
-This command allows you guess a champion for the ability mode.
+This command allows you guess a champion for the ability mode. \
 ![guess-a](assets/images/guess-a.webp)
 

@@ -40,18 +40,18 @@ python3 ./src/main.py
 
 ## Commandes
 ### /start-c
-Cette commande démarre une partie en mode Classique, l'objectif est de retrouver le champions à partir de ses informations.
+Cette commande démarre une partie en mode Classique, l'objectif est de retrouver le champions à partir de ses informations. \
 ![start-c](assets/images/start-c.webp)
 
 ### /guess-c
-Cette commande permet de deviner un champion pour le mode Classique et te donne des informations à quel point vous être proche de trouver. 
+Cette commande permet de deviner un champion pour le mode Classique et te donne des informations à quel point vous être proche de trouver. \
 ![guess-c](assets/images/guess-c.webp)
 
 ### /start-a
-Cette commande démarre une partie en mode Compétence, l'objectif est de retrouver le champion à partir d'une compétence.
+Cette commande démarre une partie en mode Compétence, l'objectif est de retrouver le champion à partir d'une compétence. \
 ![start-a](assets/images/start-a.webp)
 
 ### /guess-a
-Cette commande permet de deviner un champion pour le mode Compétence.
+Cette commande permet de deviner un champion pour le mode Compétence. \
 ![guess-a](assets/images/guess-a.webp)
 
