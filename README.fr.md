@@ -16,7 +16,7 @@
 Loldle Client for Discord bot a été créé dans le cadre de la politique "[Legal Jibber Jabber](https://www.riotgames.com/en/legal)" de Riot Games en utilisant des actifs appartenant à Riot Games.
 Riot ne cautionne ni ne sponsorise ce projet.
 
-Ce projet est basé sur [Loldle](https://loldle.net), un jeu similaire à [Wordle](https://fr.wikipedia.org/wiki/Wordle) mais avec les champions de League of Legends à la place des mots.
+Ce projet est une reproduction de [Loldle](https://loldle.net), un jeu similaire à [Wordle](https://fr.wikipedia.org/wiki/Wordle) mais avec les champions de League of Legends à la place des mots.
 
 
 ## Installation
