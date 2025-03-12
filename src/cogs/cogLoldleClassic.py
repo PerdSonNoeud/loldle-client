@@ -3,8 +3,12 @@ from discord import app_commands
 
 import champions
 import constants as cons
-from cogLoldle import CogLoldle
-from loldleClassic import LoldleClassic
+from .cogLoldle import CogLoldle
+from loldle.loldleClassic import LoldleClassic
+
+
+def setup(bot):
+    return CogLoldleClassic(bot)
 
 
 class CogLoldleClassic(CogLoldle):

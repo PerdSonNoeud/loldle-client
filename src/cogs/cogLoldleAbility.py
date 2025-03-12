@@ -5,8 +5,12 @@ from discord import app_commands
 
 import champions
 import constants as cons
-from cogLoldle import CogLoldle
-from loldleAbility import LoldleAbility
+from .cogLoldle import CogLoldle
+from loldle.loldleAbility import LoldleAbility
+
+
+def setup(bot):
+    return CogLoldleAbility(bot)
 
 
 class CogLoldleAbility(CogLoldle):
@@ -15,6 +19,10 @@ class CogLoldleAbility(CogLoldle):
         self.ability = LoldleAbility()
         self.isPlaying = False
         self.filter = True
+
+    def setup(self, bot):
+        self.client = bot
+        return self
 
     @app_commands.command(name="start-a", description="Commence le mode Compétence de Loldle.")
     async def startA(self, message: discord.Interaction):

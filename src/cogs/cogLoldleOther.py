@@ -4,7 +4,11 @@ import discord
 from discord import app_commands
 
 import constants as cons
-from cogLoldle import CogLoldle
+from .cogLoldle import CogLoldle
+
+
+def setup(bot):
+    return CogLoldleOther(bot)
 
 
 class CogLoldleOther(CogLoldle):
