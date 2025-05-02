@@ -102,10 +102,40 @@ def get_splash_url(name: str = "aurelionsol", num: int = 0):
     if skin_dir == "":
         return "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
 
-    additional = ".mel" if name == "mel" else ""
-    return (
-        url_start + f"assets/characters/{name}/skins/{skin_dir}/images/{name}_splash_uncentered_{num}{additional}.jpg"
-    )
+    # Check if the link exists:
+    link = url_start + f"assets/characters/{name}/skins/{skin_dir}/images/{name}_splash_uncentered_{num}.jpg"
+    response = requests.get(link)
+    if response.status_code == 200:
+        return link
+    else:
+        return link[:-4] + f"{fix_splash_name(name, num)}.jpg"
+
+
+def fix_splash_name(name: str, num: int):
+    """
+    Function that returns the additional name of the splash art.
+    :param name: name of the champion we're looking for
+    :param num: id of the skin we're looking for
+
+    :return: the additional name of the splash art
+    """
+    if name == "mel":
+        return ".mel"
+
+    return f".skins_{name}_skin{num}"
+
+
+def splash_filter(url: str, pos: list[float] = [0.5, 0.5]):
+    response = requests.get(url)
+    if response.status_code != 200:
+        return url
+
+    image = Image.open(BytesIO(response.content))
+    size = (image.size[0] // 3, image.size[1] // 2)
+    pos = [int(image.size[0] * pos[0]), int(image.size[1] * pos[1])]
+    image = image.crop((pos[0], pos[1], pos[0] + size[0], pos[1] + size[1]))
+
+    return image
 
 
 def get_icon_url(name: str = "aurelionsol", icon: str = "base", fixes={}):

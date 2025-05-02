@@ -1,12 +1,10 @@
 import parser
 import random as rd
 
-import constants as cons
-from champions import Champion
-from loldle import Loldle
+from .loldleAPI import LoldleAPI
 
 
-class LoldleAbility(Loldle):
+class LoldleAbility(LoldleAPI):
     def __init__(self):
         super().__init__()
         self.ability = "p"
@@ -24,17 +22,6 @@ class LoldleAbility(Loldle):
 
         self.rotation = rd.randint(1, 3)
         self.flip = rd.choice([True, False])
-
-    def guess(self, champ: Champion):
-        """
-        Function that checks if the champ is the right one
-        """
-        if self.champ.name == champ.name:
-            self.guesses.insert(0, [cons.good, champ.name])
-            return True
-        else:
-            self.guesses.insert(0, [cons.wrong, champ.name])
-            return False
 
     def get_icon(self, filter: bool = False) -> str:
         icon_url = self.champ.get_icon_url(self.ability)

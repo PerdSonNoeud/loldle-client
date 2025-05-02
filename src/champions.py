@@ -6,7 +6,7 @@ def initChamp():
     return parser.importData()
 
 
-def getChamp(name: str):
+def get_champ(name: str):
     for champ in Champion.champ_list:
         if name == champ["name"] or name == champ["alias"]:
             return Champion(champ)
@@ -35,8 +35,8 @@ class Champion:
         self.skins = data["skins"]
         self.abilities = data["abilities"]
 
-    def getUrl(self, num: int = str):
-        return parser.get_splash_url(self.alias, 0)
+    def get_url(self, num: int = 0):
+        return parser.get_splash_url(self.alias, num)
 
     def get_icon_url(self, ability: str = "base"):
         fix = {}

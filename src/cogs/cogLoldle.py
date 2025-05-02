@@ -32,7 +32,8 @@ class CogLoldle(commands.Cog):
 
         if champion in champ:
             i = champ.index(champion)
-            skins = [(n, i) for i, n in champ_list[i]["skins"].items()]
+            tmp = champ_list[i]["skins"]
+            skins = [(tmp[k]["name"], tmp[k]["num"]) for k in range(len(tmp))]
             # Not searching
             if not current:
                 return [discord.app_commands.Choice(name=skin[0], value=skin[1]) for skin in skins[:25]]

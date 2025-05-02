@@ -1,7 +1,8 @@
 from champions import Champion, rdChamp
+import constants as cons
 
 
-class Loldle:
+class LoldleAPI:
     def __init__(self):
         self.champ = None
         self.guesses = []
@@ -18,6 +19,17 @@ class Loldle:
         print("\tChampion aléatoire:", champ_dict["name"])
         self.champ = Champion(champ_dict)
         self.guesses = []
+
+    def guess(self, champ: Champion) -> bool:
+        """
+        Function that checks if the champ is the right one
+        """
+        if self.champ.name == champ.name:
+            self.guesses.insert(0, [cons.good, champ.name])
+            return True
+        else:
+            self.guesses.insert(0, [cons.wrong, champ.name])
+            return False
 
     def __str__(self):
         result = f"Nombre total d'essais : {len(self.guesses)}\n"

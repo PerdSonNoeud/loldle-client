@@ -50,7 +50,7 @@ class CogLoldleClassic(CogLoldle):
         eph = False
 
         if self.isPlaying:
-            champ = champions.getChamp(name)
+            champ = champions.get_champ(name)
             if not champ:
                 text = "Champion inconnu."
                 eph = True
@@ -78,11 +78,12 @@ class CogLoldleClassic(CogLoldle):
                     )
                 else:
                     emb = discord.Embed(
-                        title=f"Trouvé, c'était `{name}` !",
+                        title=f"Trouvé, c'était `{self.classic.champ.name}` !",
                         description=self.classic,
                         color=cons.emb_color,
                     )
-                    emb.set_image(url=self.classic.champ.getUrl())
+                    print(self.classic.champ.get_url())
+                    emb.set_image(url=self.classic.champ.get_url())
                     self.isPlaying = False
 
         else:

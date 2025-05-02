@@ -1,6 +1,6 @@
 import constants as cons
 from champions import Champion
-from loldle import Loldle
+from .loldleAPI import LoldleAPI
 
 
 def compareOne(data1: str, data2: str):
@@ -19,11 +19,11 @@ def compareMultiple(data1: list[str], data2: list[str]):
     return cons.wrong
 
 
-class LoldleClassic(Loldle):
+class LoldleClassic(LoldleAPI):
     def __init__(self):
         super().__init__()
 
-    def start(self):
+    def start(self) -> None:
         print("Mode Classique:")
         super().start()
 

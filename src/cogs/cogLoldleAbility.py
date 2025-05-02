@@ -20,10 +20,6 @@ class CogLoldleAbility(CogLoldle):
         self.isPlaying = False
         self.filter = True
 
-    def setup(self, bot):
-        self.client = bot
-        return self
-
     @app_commands.command(name="start-a", description="Commence le mode Compétence de Loldle.")
     async def startA(self, message: discord.Interaction):
         """
@@ -75,7 +71,7 @@ class CogLoldleAbility(CogLoldle):
         view = None
 
         if self.isPlaying:
-            champ = champions.getChamp(name)
+            champ = champions.get_champ(name)
             if not champ:
                 text = "Champion inconnu."
                 eph = True

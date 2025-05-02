@@ -18,13 +18,11 @@ Riot Games does not endorse or sponsor this project.
 
 This project is a reproduction of [Loldle](https://loldle.net), a game similar to [Wordle](https://en.wikipedia.org/wiki/Wordle) but with the champions of League of legends instead of words.
 
-
 ## Installation
 To download this project, you can clone this git repository using :
 ```bash
 git clone https://github.com/PerdSonNoeud/loldle-client.git
 ```
-
 
 ## Execute program
 To start the bot, go to the root of the project and insert your discord bot token into `./assets/TOKEN.txt` :
@@ -36,7 +34,6 @@ Then, you can simply run the file `./src/main.py` using:
 ```bash
 python3 ./src/main.py
 ```
-
 
 ## Commands
 ### /start-c
@@ -55,3 +52,10 @@ This command starts a game in the Ability mode, where you guess the champion tha
 This command allows you guess a champion for the ability mode. \
 ![guess-a](assets/images/guess-a.webp)
 
+### /start-s
+This command starts a game in the Splash Art mode, where you guess the champion based of a part of his splash art. \
+![start-s](assets/images/start-s.webp)
+
+### /guess-s
+This command allows you guess a champion for the splash art mode. \
+![guess-s](assets/images/guess-s.webp)

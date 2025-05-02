@@ -8,7 +8,7 @@
 - [Executer le programme](#executer-le-programme)
 - [Commandes](#commandes)
   - [/start-c](#start-c)
-  - [/guess-c](#guess-c)
+- [/guess-c](#guess-c)
   - [/start-a](#start-a)
   - [/guess-a](#guess-a)
 
@@ -18,13 +18,11 @@ Riot ne cautionne ni ne sponsorise ce projet.
 
 Ce projet est une reproduction de [Loldle](https://loldle.net), un jeu similaire à [Wordle](https://fr.wikipedia.org/wiki/Wordle) mais avec les champions de League of Legends à la place des mots.
 
-
 ## Installation
 Pour télécharger le projet, vous pouvez cloner le répertoire git avec :
 ```bash
 git clone https://github.com/PerdSonNoeud/loldle-client.git
 ```
-
 
 ## Executer le programme
 Pour lancer le bot, aller à la racine du projet et inserer la clé de votre bot discord dans `./assets/TOKEN.txt` :
@@ -36,7 +34,6 @@ Ensuite, lancez simplement le fichier suivant `./src/main.py` avec :
 ```bash
 python3 ./src/main.py
 ```
-
 
 ## Commandes
 ### /start-c
@@ -55,3 +52,10 @@ Cette commande démarre une partie en mode Compétence, l'objectif est de retrou
 Cette commande permet de deviner un champion pour le mode Compétence. \
 ![guess-a](assets/images/guess-a.webp)
 
+### /start-s
+Cette commande démarre une partie en mode Splash Art, l'objectif est de retrouver le champion à partir d'un bout de Splash Art. \
+![start-s](assets/images/start-s.webp)
+
+### /guess-s
+Cette commande permet de deviner un champion pour le mode Splash Art. \
+![guess-s](assets/images/guess-s.webp)

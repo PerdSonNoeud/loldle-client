@@ -1,10 +1,6 @@
-from champions import Champion
-from loldle import Loldle
+from .loldleAPI import LoldleAPI
 
 
-class LoldleEmoji(Loldle):
+class LoldleEmoji(LoldleAPI):
     def __init__(self):
         super().__init__()
-
-    def guess(self, champ: Champion):
-        pass
