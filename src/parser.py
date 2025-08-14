@@ -47,7 +47,7 @@ def importData(pathfile: str = "assets/champions.json") -> list[dict]:
 
     abilities = ["q", "w", "e", "r"]
 
-    for i in range(len(data)):
+    for i in range(len(data) - 1):
         # Get skin's name
         for skin in data[i]["skins"]:
             if skin["name"] == "default":
@@ -103,12 +103,14 @@ def get_splash_url(name: str = "aurelionsol", num: int = 0):
         return "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
 
     # Check if the link exists:
-    link = url_start + f"assets/characters/{name}/skins/{skin_dir}/images/{name}_splash_uncentered_{num}.jpg"
-    response = requests.get(link)
-    if response.status_code == 200:
-        return link
-    else:
-        return link[:-4] + f"{fix_splash_name(name, num)}.jpg"
+    link = json_start + f"assets/characters/{name}/skins/{skin_dir}/images/"
+    response = requests.get(link).json()
+    if response == []:
+        return "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
+    # Get the complete name of the files
+    for i in range(len(response)):
+        if f"{name}_splash_uncentered_" in response[i]["name"]:
+            return f"{url_start}assets/characters/{name}/skins/{skin_dir}/images/{response[i]['name']}"
 
 
 def fix_splash_name(name: str, num: int):
