@@ -4,8 +4,12 @@ from discord.ext import commands
 import cogs
 
 
-with open("./assets/TOKEN.txt", "r") as file:
-    token = file.read()
+try:
+    with open("./assets/TOKEN.txt", "r") as file:
+        token = file.read()
+except Exception as e:
+    print("File not found, no token were given.")
+    exit(2)
 
 
 intents = discord.Intents.default()
