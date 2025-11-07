@@ -30,7 +30,7 @@
         "release": 2010,
         "regions": ["Ionia"],
         "species": ["Human"],
-        "positions": ["Top", "Middle"]
+        "positions": ["Middle"]
     },
     {
         "name": "Akshan",
@@ -50,7 +50,7 @@
         "resource": "Mana",
         "range_type": ["Melee"],
         "release": 2009,
-        "regions": ["Runeterra"],
+        "regions": ["Noxus", "Runeterra"],
         "species": ["Minotaur"],
         "positions": ["Support"]
     },
@@ -63,7 +63,7 @@
         "release": 2025,
         "regions": ["Noxus", "Piltover"],
         "species": ["Human"],
-        "positions": ["Top", "Jungle"]
+        "positions": ["Top"]
     },
     {
         "name": "Amumu",
@@ -140,7 +140,7 @@
         "release": 2024,
         "regions": ["Freljord"],
         "species": ["Vastayan"],
-        "positions": ["Top", "Middle"]
+        "positions": ["Middle"]
     },
     {
         "name": "Azir",
@@ -195,7 +195,7 @@
         "release": 2011,
         "regions": ["Freljord", "Runeterra"],
         "species": ["Human", "Magically Altered"],
-        "positions": ["Jungle", "Support"]
+        "positions": ["Support"]
     },
     {
         "name": "Braum",
@@ -261,7 +261,7 @@
         "release": 2009,
         "regions": ["Void"],
         "species": ["Void-being"],
-        "positions": ["Top"]
+        "positions": ["Top", "Middle"]
     },
     {
         "name": "Corki",
@@ -283,7 +283,7 @@
         "release": 2012,
         "regions": ["Noxus"],
         "species": ["Human"],
-        "positions": ["Top"]
+        "positions": ["Top", "Jungle"]
     },
     {
         "name": "Diana",
@@ -334,14 +334,11 @@
         "alias": "elise",
         "gender": "Female",
         "resource": "Mana",
-        "range_type": [
-            "Melee",
-            "Ranged"
-        ],
+        "range_type": ["Melee", "Ranged"],
         "release": 2012,
         "regions": ["Noxus", "Shadow Isles"],
         "species": ["Human", "Magically Altered"],
-        "positions": ["Jungle"]
+        "positions": ["Jungle", "Support"]
     },
     {
         "name": "Evelynn",
@@ -374,7 +371,7 @@
         "release": 2009,
         "regions": ["Runeterra"],
         "species": ["Demon", "Spirit"],
-        "positions": ["Jungle"]
+        "positions": ["Jungle", "Support"]
     },
     {
         "name": "Fiora",
@@ -582,14 +579,11 @@
         "alias": "jayce",
         "gender": "Male",
         "resource": "Mana",
-        "range_type": [
-            "Melee",
-            "Ranged"
-        ],
+        "range_type": ["Melee", "Ranged"],
         "release": 2012,
         "regions": ["Piltover"],
         "species": ["Human"],
-        "positions": ["Top", "Middle"]
+        "positions": ["Top"]
     },
     {
         "name": "Jhin",
@@ -713,7 +707,7 @@
         "release": 2010,
         "regions": ["Ionia"],
         "species": ["Yordle"],
-        "positions": ["Top"]
+        "positions": ["Top", "Middle"]
     },
     {
         "name": "Kha'Zix",
@@ -758,7 +752,7 @@
         "regions": ["Void"],
         "species": ["Void-being"],
         "positions": ["Bottom"]
-    },   
+    },
     {
         "name": "K'Sante",
         "alias": "ksante",
@@ -889,7 +883,7 @@
         "release": 2011,
         "regions": ["Shadow Isles"],
         "species": ["Spirit"],
-        "positions": ["Support", "Top"]
+        "positions": ["Support"]
     },
     {
         "name": "Master Yi",
@@ -944,7 +938,7 @@
         "release": 2011,
         "regions": ["Ionia"],
         "species": ["Vastayan"],
-        "positions": ["Jungle", "Top"]
+        "positions": ["Jungle"]
     },
     {
         "name": "Mordekaiser",
@@ -977,7 +971,7 @@
         "release": 2023,
         "regions": ["Shurima"],
         "species": ["Darkin", "Dog"],
-        "positions": ["Middle"]
+        "positions": ["Jungle", "Middle"]
     },
     {
         "name": "Nami",
@@ -1112,7 +1106,7 @@
         "release": 2010,
         "regions": ["Targon"],
         "species": ["Human", "Aspect"],
-        "positions": ["Top", "Support"]
+        "positions": ["Top", "Jungle", "Support"]
     },
     {
         "name": "Poppy",
@@ -1123,7 +1117,7 @@
         "release": 2010,
         "regions": ["Demacia"],
         "species": ["Yordle"],
-        "positions": ["Top", "Support"]
+        "positions": ["Top", "Jungle", "Support"]
     },
     {
         "name": "Pyke",
@@ -1156,7 +1150,7 @@
         "release": 2013,
         "regions": ["Demacia"],
         "species": ["Human"],
-        "positions": ["Top"]
+        "positions": ["Top", "Middle"]
     },
     {
         "name": "Rakan",
@@ -1332,7 +1326,7 @@
         "release": 2009,
         "regions": ["Runeterra"],
         "species": ["Spirit"],
-        "positions": ["Jungle"]
+        "positions": ["Jungle", "Support"]
     },
     {
         "name": "Shen",
@@ -1409,7 +1403,7 @@
         "release": 2024,
         "regions": ["Camavor", "Noxus"],
         "species": ["Dragon"],
-        "positions": ["Bottom", "Middle"]
+        "positions": ["Bottom"]
     },
     {
         "name": "Sona",
@@ -1486,7 +1480,7 @@
         "release": 2016,
         "regions": ["Shurima"],
         "species": ["Human", "Magicborn"],
-        "positions": ["Jungle", "Middle"]
+        "positions": ["Middle"]
     },
     {
         "name": "Talon",
@@ -1519,7 +1513,7 @@
         "release": 2009,
         "regions": ["Bandle City"],
         "species": ["Yordle"],
-        "positions": ["Jungle", "Top"]
+        "positions": ["Top"]
     },
     {
         "name": "Thresh",
@@ -1749,7 +1743,7 @@
         "range_type": ["Ranged"],
         "release": 2011,
         "regions": ["Shurima"],
-        "species": ["God-Warrior"],
+        "species": ["Baccai"],
         "positions": ["Middle", "Support"]
     },
     {
@@ -1794,7 +1788,18 @@
         "release": 2011,
         "regions": ["Shadow Isles"],
         "species": ["Human", "Magically Altered"],
-        "positions": ["Top"]
+        "positions": ["Top", "Jungle"]
+    },
+    {
+        "name": "Yunara",
+        "alias": "yunara",
+        "gender": "Female",
+        "resource": "Mana",
+        "range_type": ["Ranged"],
+        "release": 2025,
+        "regions": ["Ionia"],
+        "species": ["Human", "Spiritualist"],
+        "positions": ["Bottom"]
     },
     {
         "name": "Yuumi",
@@ -1827,7 +1832,7 @@
         "release": 2012,
         "regions": ["Ionia"],
         "species": ["Human", "Magically Altered"],
-        "positions": ["Middle"]
+        "positions": ["Jungle", "Middle"]
     },
     {
         "name": "Zeri",
@@ -1881,7 +1886,7 @@
         "range_type": ["Ranged"],
         "release": 2012,
         "regions": ["Ixtal"],
-        "species": ["Unknown"],
+        "species": ["Human", "Plant"],
         "positions": ["Support"]
     }
 ]

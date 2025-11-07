@@ -33,7 +33,7 @@ def importData(pathfile: str = "assets/champions.json") -> list[dict]:
     :return: List of dict of the champion
     """
     result = []
-    print("Get champions data...")
+    print("Get champions data... (Last updated on 07/11/2025)")
     with open(pathfile) as file:
         result = json.load(file)
 
